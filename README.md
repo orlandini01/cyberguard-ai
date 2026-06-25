@@ -36,14 +36,15 @@ O **CyberGuard AI** é uma plataforma open-source de análise de logs de seguran
 ## 📸 Screenshots
 
 | Dashboard | Análise de Ameaças |
-|-----------|-------------------|
+<img width="1612" height="847" alt="image" src="https://github.com/user-attachments/assets/3f753337-43fc-4a58-ab38-5790ad978501" />
+<img width="1614" height="815" alt="image" src="https://github.com/user-attachments/assets/9ffb1376-17f3-43b0-a0b4-adcaf42649c4" />
+
 | KPIs + gráficos interativos | Cards de incidentes com score de risco |
+<img width="1612" height="857" alt="image" src="https://github.com/user-attachments/assets/fa425413-bc1c-4633-9321-5175fee0af0a" />
 
 | Explicação por IA | Relatório PDF |
-|-------------------|---------------|
-| Linguagem simples em 3 blocos | Profissional, pronto para gestão |
+<img width="1592" height="654" alt="image" src="https://github.com/user-attachments/assets/593d2aba-31ab-4d1d-830e-2ca587a4a0fd" />
 
----
 
 ## ✨ Funcionalidades
 
