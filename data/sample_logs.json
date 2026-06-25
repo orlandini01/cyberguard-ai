@@ -1,0 +1,4805 @@
+{
+  "source": "CyberGuard AI Sample Data",
+  "version": "1.0",
+  "generated_at": "2026-06-25T12:55:41.409793",
+  "total_events": 533,
+  "events": [
+    {
+      "timestamp": "2026-05-26T00:16:13",
+      "source_ip": "10.0.2.207",
+      "username": "lucia.santos",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 1
+    },
+    {
+      "timestamp": "2026-05-26T03:36:26",
+      "source_ip": "10.0.5.190",
+      "username": "marcos.oliveira",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 2
+    },
+    {
+      "timestamp": "2026-05-26T11:32:29",
+      "source_ip": "10.0.0.190",
+      "username": "william.nunes",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 3
+    },
+    {
+      "timestamp": "2026-05-26T11:37:09",
+      "source_ip": "10.0.3.138",
+      "username": "beatriz.campos",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 4
+    },
+    {
+      "timestamp": "2026-05-26T12:35:59",
+      "source_ip": "10.0.0.56",
+      "username": "diego.martins",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 5
+    },
+    {
+      "timestamp": "2026-05-26T13:50:18",
+      "source_ip": "10.0.5.190",
+      "username": "patricia.rocha",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 6
+    },
+    {
+      "timestamp": "2026-05-26T13:50:50",
+      "source_ip": "189.75.253.21",
+      "username": "roberto.alves",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 7
+    },
+    {
+      "timestamp": "2026-05-26T14:16:59",
+      "source_ip": "10.0.0.195",
+      "username": "elena.barbosa",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 8
+    },
+    {
+      "timestamp": "2026-05-26T14:21:53",
+      "source_ip": "10.0.0.92",
+      "username": "beatriz.campos",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 9
+    },
+    {
+      "timestamp": "2026-05-26T14:28:44",
+      "source_ip": "10.0.0.195",
+      "username": "fabio.carvalho",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 10
+    },
+    {
+      "timestamp": "2026-05-26T15:20:26",
+      "source_ip": "10.0.5.167",
+      "username": "root",
+      "action": "PRIVILEGE_ESCALATION",
+      "status": "success",
+      "details": "Acesso à conta privilegiada",
+      "event_id": 11
+    },
+    {
+      "timestamp": "2026-05-26T16:03:22",
+      "source_ip": "189.94.42.95",
+      "username": "roberto.alves",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 12
+    },
+    {
+      "timestamp": "2026-05-26T17:35:14",
+      "source_ip": "10.0.5.29",
+      "username": "roberto.alves",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 13
+    },
+    {
+      "timestamp": "2026-05-27T00:02:08",
+      "source_ip": "194.165.16.72",
+      "username": "dbadmin",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Acesso à conta privilegiada - horário incomum",
+      "event_id": 14
+    },
+    {
+      "timestamp": "2026-05-27T00:20:59",
+      "source_ip": "10.0.0.92",
+      "username": "thiago.pereira",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 15
+    },
+    {
+      "timestamp": "2026-05-27T08:15:12",
+      "source_ip": "189.26.98.72",
+      "username": "ana.lima",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 16
+    },
+    {
+      "timestamp": "2026-05-27T09:27:14",
+      "source_ip": "10.0.1.130",
+      "username": "fernanda.costa",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 17
+    },
+    {
+      "timestamp": "2026-05-27T09:29:19",
+      "source_ip": "10.0.4.51",
+      "username": "marcos.oliveira",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 18
+    },
+    {
+      "timestamp": "2026-05-27T10:30:33",
+      "source_ip": "10.0.2.208",
+      "username": "elena.barbosa",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 19
+    },
+    {
+      "timestamp": "2026-05-27T10:32:37",
+      "source_ip": "10.0.4.23",
+      "username": "vanessa.souza",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 20
+    },
+    {
+      "timestamp": "2026-05-27T11:56:36",
+      "source_ip": "10.0.5.190",
+      "username": "fernanda.costa",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 21
+    },
+    {
+      "timestamp": "2026-05-27T12:24:20",
+      "source_ip": "10.0.3.138",
+      "username": "patricia.rocha",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 22
+    },
+    {
+      "timestamp": "2026-05-27T12:24:43",
+      "source_ip": "10.0.2.207",
+      "username": "carlos.mendes",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 23
+    },
+    {
+      "timestamp": "2026-05-27T13:37:35",
+      "source_ip": "10.0.2.207",
+      "username": "lucia.santos",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 24
+    },
+    {
+      "timestamp": "2026-05-27T14:22:44",
+      "source_ip": "10.0.2.208",
+      "username": "fernanda.costa",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 25
+    },
+    {
+      "timestamp": "2026-05-27T17:30:32",
+      "source_ip": "10.0.1.36",
+      "username": "marcos.oliveira",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 26
+    },
+    {
+      "timestamp": "2026-05-27T17:47:06",
+      "source_ip": "189.117.163.214",
+      "username": "patricia.rocha",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 27
+    },
+    {
+      "timestamp": "2026-05-28T00:24:55",
+      "source_ip": "10.0.2.63",
+      "username": "fabio.carvalho",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 28
+    },
+    {
+      "timestamp": "2026-05-28T08:09:10",
+      "source_ip": "189.69.180.240",
+      "username": "carlos.mendes",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 29
+    },
+    {
+      "timestamp": "2026-05-28T08:19:28",
+      "source_ip": "10.0.0.98",
+      "username": "william.nunes",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 30
+    },
+    {
+      "timestamp": "2026-05-28T09:05:27",
+      "source_ip": "189.42.119.98",
+      "username": "joao.silva",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 31
+    },
+    {
+      "timestamp": "2026-05-28T10:17:39",
+      "source_ip": "10.0.0.98",
+      "username": "vanessa.souza",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 32
+    },
+    {
+      "timestamp": "2026-05-28T10:27:17",
+      "source_ip": "10.0.0.56",
+      "username": "diego.martins",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 33
+    },
+    {
+      "timestamp": "2026-05-28T11:40:43",
+      "source_ip": "10.0.5.140",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 34
+    },
+    {
+      "timestamp": "2026-05-28T14:24:24",
+      "source_ip": "10.0.0.190",
+      "username": "fabio.carvalho",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 35
+    },
+    {
+      "timestamp": "2026-05-28T15:28:49",
+      "source_ip": "189.76.213.161",
+      "username": "william.nunes",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 36
+    },
+    {
+      "timestamp": "2026-05-29T05:55:41",
+      "source_ip": "203.0.113.42",
+      "username": "sysadmin",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "MFA falhou",
+      "event_id": 37
+    },
+    {
+      "timestamp": "2026-05-29T05:56:38",
+      "source_ip": "203.0.113.42",
+      "username": "sysadmin",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 38
+    },
+    {
+      "timestamp": "2026-05-29T05:56:42",
+      "source_ip": "203.0.113.42",
+      "username": "sysadmin",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "Token expirado",
+      "event_id": 39
+    },
+    {
+      "timestamp": "2026-05-29T05:57:07",
+      "source_ip": "203.0.113.42",
+      "username": "sysadmin",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 40
+    },
+    {
+      "timestamp": "2026-05-29T05:57:59",
+      "source_ip": "203.0.113.42",
+      "username": "sysadmin",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "IP bloqueado por política",
+      "event_id": 41
+    },
+    {
+      "timestamp": "2026-05-29T05:59:36",
+      "source_ip": "203.0.113.42",
+      "username": "sysadmin",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "IP bloqueado por política",
+      "event_id": 42
+    },
+    {
+      "timestamp": "2026-05-29T05:59:37",
+      "source_ip": "203.0.113.42",
+      "username": "sysadmin",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 43
+    },
+    {
+      "timestamp": "2026-05-29T05:59:59",
+      "source_ip": "203.0.113.42",
+      "username": "sysadmin",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "IP bloqueado por política",
+      "event_id": 44
+    },
+    {
+      "timestamp": "2026-05-29T06:00:15",
+      "source_ip": "203.0.113.42",
+      "username": "sysadmin",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 45
+    },
+    {
+      "timestamp": "2026-05-29T06:02:04",
+      "source_ip": "203.0.113.42",
+      "username": "sysadmin",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "MFA falhou",
+      "event_id": 46
+    },
+    {
+      "timestamp": "2026-05-29T06:02:38",
+      "source_ip": "203.0.113.42",
+      "username": "sysadmin",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Credenciais inválidas",
+      "event_id": 47
+    },
+    {
+      "timestamp": "2026-05-29T06:02:40",
+      "source_ip": "203.0.113.42",
+      "username": "sysadmin",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Token expirado",
+      "event_id": 48
+    },
+    {
+      "timestamp": "2026-05-29T06:04:18",
+      "source_ip": "203.0.113.42",
+      "username": "sysadmin",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "MFA falhou",
+      "event_id": 49
+    },
+    {
+      "timestamp": "2026-05-29T06:04:50",
+      "source_ip": "203.0.113.42",
+      "username": "sysadmin",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 50
+    },
+    {
+      "timestamp": "2026-05-29T06:06:26",
+      "source_ip": "203.0.113.42",
+      "username": "sysadmin",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "Credenciais inválidas",
+      "event_id": 51
+    },
+    {
+      "timestamp": "2026-05-29T06:08:00",
+      "source_ip": "203.0.113.42",
+      "username": "sysadmin",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "Tentativa de acesso não autorizado",
+      "event_id": 52
+    },
+    {
+      "timestamp": "2026-05-29T08:05:22",
+      "source_ip": "10.0.1.179",
+      "username": "fernanda.costa",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 53
+    },
+    {
+      "timestamp": "2026-05-29T08:41:34",
+      "source_ip": "10.0.5.190",
+      "username": "ana.lima",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 54
+    },
+    {
+      "timestamp": "2026-05-29T09:15:56",
+      "source_ip": "10.0.0.98",
+      "username": "lucia.santos",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 55
+    },
+    {
+      "timestamp": "2026-05-29T09:28:10",
+      "source_ip": "10.0.0.190",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 56
+    },
+    {
+      "timestamp": "2026-05-29T09:42:27",
+      "source_ip": "10.0.2.207",
+      "username": "william.nunes",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 57
+    },
+    {
+      "timestamp": "2026-05-29T10:00:35",
+      "source_ip": "10.0.5.167",
+      "username": "marcos.oliveira",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 58
+    },
+    {
+      "timestamp": "2026-05-29T10:05:11",
+      "source_ip": "10.0.5.140",
+      "username": "diego.martins",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 59
+    },
+    {
+      "timestamp": "2026-05-29T10:34:25",
+      "source_ip": "10.0.2.27",
+      "username": "lucia.santos",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 60
+    },
+    {
+      "timestamp": "2026-05-29T11:45:37",
+      "source_ip": "10.0.2.63",
+      "username": "fabio.carvalho",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 61
+    },
+    {
+      "timestamp": "2026-05-29T14:23:40",
+      "source_ip": "189.156.163.44",
+      "username": "elena.barbosa",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 62
+    },
+    {
+      "timestamp": "2026-05-29T17:01:59",
+      "source_ip": "189.170.59.198",
+      "username": "thiago.pereira",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 63
+    },
+    {
+      "timestamp": "2026-05-29T17:15:37",
+      "source_ip": "189.26.98.72",
+      "username": "carlos.mendes",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 64
+    },
+    {
+      "timestamp": "2026-05-30T14:19:41",
+      "source_ip": "10.0.2.207",
+      "username": "elena.barbosa",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 65
+    },
+    {
+      "timestamp": "2026-05-31T03:55:41",
+      "source_ip": "203.0.113.42",
+      "username": "user004",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 66
+    },
+    {
+      "timestamp": "2026-05-31T03:56:03",
+      "source_ip": "203.0.113.42",
+      "username": "user011",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 67
+    },
+    {
+      "timestamp": "2026-05-31T03:56:21",
+      "source_ip": "203.0.113.42",
+      "username": "user008",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 68
+    },
+    {
+      "timestamp": "2026-05-31T03:57:20",
+      "source_ip": "203.0.113.42",
+      "username": "user002",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 69
+    },
+    {
+      "timestamp": "2026-05-31T03:57:44",
+      "source_ip": "203.0.113.42",
+      "username": "user015",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 70
+    },
+    {
+      "timestamp": "2026-05-31T03:58:11",
+      "source_ip": "203.0.113.42",
+      "username": "user001",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 71
+    },
+    {
+      "timestamp": "2026-05-31T03:58:29",
+      "source_ip": "203.0.113.42",
+      "username": "lucia.santos",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 72
+    },
+    {
+      "timestamp": "2026-05-31T03:58:56",
+      "source_ip": "203.0.113.42",
+      "username": "user009",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 73
+    },
+    {
+      "timestamp": "2026-05-31T03:59:04",
+      "source_ip": "203.0.113.42",
+      "username": "fernanda.costa",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 74
+    },
+    {
+      "timestamp": "2026-05-31T03:59:47",
+      "source_ip": "203.0.113.42",
+      "username": "carlos.mendes",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 75
+    },
+    {
+      "timestamp": "2026-05-31T04:01:09",
+      "source_ip": "203.0.113.42",
+      "username": "user005",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 76
+    },
+    {
+      "timestamp": "2026-05-31T04:01:26",
+      "source_ip": "203.0.113.42",
+      "username": "ana.lima",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 77
+    },
+    {
+      "timestamp": "2026-05-31T04:01:31",
+      "source_ip": "203.0.113.42",
+      "username": "user012",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 78
+    },
+    {
+      "timestamp": "2026-05-31T04:02:06",
+      "source_ip": "203.0.113.42",
+      "username": "user016",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 79
+    },
+    {
+      "timestamp": "2026-05-31T04:04:05",
+      "source_ip": "203.0.113.42",
+      "username": "user007",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 80
+    },
+    {
+      "timestamp": "2026-05-31T04:04:08",
+      "source_ip": "203.0.113.42",
+      "username": "user010",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 81
+    },
+    {
+      "timestamp": "2026-05-31T04:55:41",
+      "source_ip": "203.0.113.42",
+      "username": "joao.silva",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 82
+    },
+    {
+      "timestamp": "2026-05-31T04:56:31",
+      "source_ip": "203.0.113.42",
+      "username": "sandra.ferreira",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 83
+    },
+    {
+      "timestamp": "2026-05-31T04:59:23",
+      "source_ip": "203.0.113.42",
+      "username": "diego.martins",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 84
+    },
+    {
+      "timestamp": "2026-05-31T04:59:31",
+      "source_ip": "203.0.113.42",
+      "username": "lucia.santos",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 85
+    },
+    {
+      "timestamp": "2026-05-31T04:59:31",
+      "source_ip": "203.0.113.42",
+      "username": "fernanda.costa",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 86
+    },
+    {
+      "timestamp": "2026-06-01T08:37:47",
+      "source_ip": "189.42.119.98",
+      "username": "carlos.mendes",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 87
+    },
+    {
+      "timestamp": "2026-06-01T09:15:46",
+      "source_ip": "189.97.21.142",
+      "username": "diego.martins",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 88
+    },
+    {
+      "timestamp": "2026-06-01T09:24:55",
+      "source_ip": "189.32.250.237",
+      "username": "carlos.mendes",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 89
+    },
+    {
+      "timestamp": "2026-06-01T09:53:48",
+      "source_ip": "189.75.253.21",
+      "username": "patricia.rocha",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 90
+    },
+    {
+      "timestamp": "2026-06-01T10:17:19",
+      "source_ip": "10.0.3.57",
+      "username": "sandra.ferreira",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 91
+    },
+    {
+      "timestamp": "2026-06-01T10:23:48",
+      "source_ip": "189.93.148.50",
+      "username": "marcos.oliveira",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 92
+    },
+    {
+      "timestamp": "2026-06-01T10:30:20",
+      "source_ip": "10.0.5.29",
+      "username": "roberto.alves",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 93
+    },
+    {
+      "timestamp": "2026-06-01T10:36:42",
+      "source_ip": "10.0.5.27",
+      "username": "beatriz.campos",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 94
+    },
+    {
+      "timestamp": "2026-06-01T10:49:41",
+      "source_ip": "10.0.4.7",
+      "username": "diego.martins",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 95
+    },
+    {
+      "timestamp": "2026-06-01T11:02:36",
+      "source_ip": "10.0.1.36",
+      "username": "dbadmin",
+      "action": "PRIVILEGE_ESCALATION",
+      "status": "success",
+      "details": "Acesso à conta privilegiada",
+      "event_id": 96
+    },
+    {
+      "timestamp": "2026-06-01T11:52:24",
+      "source_ip": "10.0.5.167",
+      "username": "fabio.carvalho",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 97
+    },
+    {
+      "timestamp": "2026-06-01T12:03:08",
+      "source_ip": "189.159.227.221",
+      "username": "diego.martins",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 98
+    },
+    {
+      "timestamp": "2026-06-01T12:12:59",
+      "source_ip": "10.0.0.190",
+      "username": "joao.silva",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 99
+    },
+    {
+      "timestamp": "2026-06-01T12:28:56",
+      "source_ip": "10.0.4.109",
+      "username": "fabio.carvalho",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 100
+    },
+    {
+      "timestamp": "2026-06-01T12:33:55",
+      "source_ip": "10.0.5.167",
+      "username": "diego.martins",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 101
+    },
+    {
+      "timestamp": "2026-06-01T12:44:48",
+      "source_ip": "10.0.2.40",
+      "username": "thiago.pereira",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 102
+    },
+    {
+      "timestamp": "2026-06-01T13:07:47",
+      "source_ip": "10.0.4.51",
+      "username": "marcos.oliveira",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 103
+    },
+    {
+      "timestamp": "2026-06-01T13:13:43",
+      "source_ip": "189.76.213.161",
+      "username": "sandra.ferreira",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 104
+    },
+    {
+      "timestamp": "2026-06-01T13:14:24",
+      "source_ip": "10.0.3.57",
+      "username": "roberto.alves",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 105
+    },
+    {
+      "timestamp": "2026-06-01T13:44:09",
+      "source_ip": "10.0.5.167",
+      "username": "beatriz.campos",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 106
+    },
+    {
+      "timestamp": "2026-06-01T14:21:17",
+      "source_ip": "189.164.177.143",
+      "username": "fernanda.costa",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 107
+    },
+    {
+      "timestamp": "2026-06-01T14:38:04",
+      "source_ip": "10.0.0.98",
+      "username": "beatriz.campos",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 108
+    },
+    {
+      "timestamp": "2026-06-01T14:39:47",
+      "source_ip": "10.0.0.195",
+      "username": "administrator",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Acesso à conta privilegiada",
+      "event_id": 109
+    },
+    {
+      "timestamp": "2026-06-01T15:00:46",
+      "source_ip": "189.76.213.161",
+      "username": "sandra.ferreira",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 110
+    },
+    {
+      "timestamp": "2026-06-01T15:07:16",
+      "source_ip": "10.0.3.151",
+      "username": "fabio.carvalho",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 111
+    },
+    {
+      "timestamp": "2026-06-01T15:36:47",
+      "source_ip": "10.0.2.208",
+      "username": "fabio.carvalho",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 112
+    },
+    {
+      "timestamp": "2026-06-01T15:42:07",
+      "source_ip": "10.0.3.138",
+      "username": "patricia.rocha",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 113
+    },
+    {
+      "timestamp": "2026-06-01T16:18:14",
+      "source_ip": "10.0.0.195",
+      "username": "vanessa.souza",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 114
+    },
+    {
+      "timestamp": "2026-06-01T16:41:17",
+      "source_ip": "10.0.3.138",
+      "username": "fabio.carvalho",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 115
+    },
+    {
+      "timestamp": "2026-06-01T17:16:02",
+      "source_ip": "189.219.60.222",
+      "username": "joao.silva",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 116
+    },
+    {
+      "timestamp": "2026-06-01T17:19:05",
+      "source_ip": "10.0.4.109",
+      "username": "roberto.alves",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 117
+    },
+    {
+      "timestamp": "2026-06-01T17:32:47",
+      "source_ip": "10.0.5.27",
+      "username": "lucia.santos",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 118
+    },
+    {
+      "timestamp": "2026-06-01T17:38:47",
+      "source_ip": "189.164.177.143",
+      "username": "joao.silva",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 119
+    },
+    {
+      "timestamp": "2026-06-01T17:46:42",
+      "source_ip": "10.0.3.57",
+      "username": "patricia.rocha",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 120
+    },
+    {
+      "timestamp": "2026-06-02T00:23:35",
+      "source_ip": "10.0.3.138",
+      "username": "william.nunes",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 121
+    },
+    {
+      "timestamp": "2026-06-02T04:55:41",
+      "source_ip": "194.165.16.72",
+      "username": "user019",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 122
+    },
+    {
+      "timestamp": "2026-06-02T04:56:09",
+      "source_ip": "194.165.16.72",
+      "username": "user001",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 123
+    },
+    {
+      "timestamp": "2026-06-02T04:56:20",
+      "source_ip": "194.165.16.72",
+      "username": "user002",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 124
+    },
+    {
+      "timestamp": "2026-06-02T04:56:20",
+      "source_ip": "194.165.16.72",
+      "username": "user003",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 125
+    },
+    {
+      "timestamp": "2026-06-02T04:57:01",
+      "source_ip": "194.165.16.72",
+      "username": "joao.silva",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 126
+    },
+    {
+      "timestamp": "2026-06-02T04:58:51",
+      "source_ip": "194.165.16.72",
+      "username": "lucia.santos",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 127
+    },
+    {
+      "timestamp": "2026-06-02T04:59:08",
+      "source_ip": "194.165.16.72",
+      "username": "user010",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 128
+    },
+    {
+      "timestamp": "2026-06-02T04:59:10",
+      "source_ip": "194.165.16.72",
+      "username": "fernanda.costa",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 129
+    },
+    {
+      "timestamp": "2026-06-02T04:59:17",
+      "source_ip": "194.165.16.72",
+      "username": "user009",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 130
+    },
+    {
+      "timestamp": "2026-06-02T05:00:21",
+      "source_ip": "194.165.16.72",
+      "username": "user007",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 131
+    },
+    {
+      "timestamp": "2026-06-02T05:00:29",
+      "source_ip": "194.165.16.72",
+      "username": "user015",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 132
+    },
+    {
+      "timestamp": "2026-06-02T05:00:51",
+      "source_ip": "194.165.16.72",
+      "username": "user011",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 133
+    },
+    {
+      "timestamp": "2026-06-02T05:00:53",
+      "source_ip": "194.165.16.72",
+      "username": "user014",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 134
+    },
+    {
+      "timestamp": "2026-06-02T05:01:41",
+      "source_ip": "194.165.16.72",
+      "username": "user008",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 135
+    },
+    {
+      "timestamp": "2026-06-02T05:02:11",
+      "source_ip": "194.165.16.72",
+      "username": "user016",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 136
+    },
+    {
+      "timestamp": "2026-06-02T05:03:09",
+      "source_ip": "194.165.16.72",
+      "username": "user018",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 137
+    },
+    {
+      "timestamp": "2026-06-02T05:04:26",
+      "source_ip": "194.165.16.72",
+      "username": "user005",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 138
+    },
+    {
+      "timestamp": "2026-06-02T05:05:02",
+      "source_ip": "194.165.16.72",
+      "username": "user004",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 139
+    },
+    {
+      "timestamp": "2026-06-02T05:23:24",
+      "source_ip": "10.0.0.56",
+      "username": "carlos.mendes",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 140
+    },
+    {
+      "timestamp": "2026-06-02T09:22:49",
+      "source_ip": "189.26.98.72",
+      "username": "diego.martins",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 141
+    },
+    {
+      "timestamp": "2026-06-02T10:30:09",
+      "source_ip": "10.0.2.27",
+      "username": "elena.barbosa",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 142
+    },
+    {
+      "timestamp": "2026-06-02T10:45:20",
+      "source_ip": "10.0.0.98",
+      "username": "roberto.alves",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 143
+    },
+    {
+      "timestamp": "2026-06-02T10:51:44",
+      "source_ip": "10.0.1.36",
+      "username": "elena.barbosa",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 144
+    },
+    {
+      "timestamp": "2026-06-02T10:58:17",
+      "source_ip": "10.0.5.27",
+      "username": "lucia.santos",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 145
+    },
+    {
+      "timestamp": "2026-06-02T11:39:33",
+      "source_ip": "10.0.2.155",
+      "username": "sandra.ferreira",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 146
+    },
+    {
+      "timestamp": "2026-06-02T12:42:31",
+      "source_ip": "189.93.148.50",
+      "username": "patricia.rocha",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 147
+    },
+    {
+      "timestamp": "2026-06-02T12:49:18",
+      "source_ip": "10.0.1.246",
+      "username": "patricia.rocha",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 148
+    },
+    {
+      "timestamp": "2026-06-02T12:56:09",
+      "source_ip": "10.0.5.167",
+      "username": "roberto.alves",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 149
+    },
+    {
+      "timestamp": "2026-06-02T13:06:43",
+      "source_ip": "189.93.148.50",
+      "username": "william.nunes",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 150
+    },
+    {
+      "timestamp": "2026-06-02T13:11:19",
+      "source_ip": "189.156.163.44",
+      "username": "ana.lima",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 151
+    },
+    {
+      "timestamp": "2026-06-02T13:53:49",
+      "source_ip": "10.0.5.140",
+      "username": "carlos.mendes",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 152
+    },
+    {
+      "timestamp": "2026-06-02T14:54:35",
+      "source_ip": "189.219.60.222",
+      "username": "ana.lima",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 153
+    },
+    {
+      "timestamp": "2026-06-02T15:36:39",
+      "source_ip": "10.0.2.40",
+      "username": "beatriz.campos",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 154
+    },
+    {
+      "timestamp": "2026-06-02T15:40:16",
+      "source_ip": "10.0.3.151",
+      "username": "elena.barbosa",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 155
+    },
+    {
+      "timestamp": "2026-06-03T05:50:04",
+      "source_ip": "10.0.3.57",
+      "username": "william.nunes",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 156
+    },
+    {
+      "timestamp": "2026-06-03T08:03:35",
+      "source_ip": "189.175.166.19",
+      "username": "thiago.pereira",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 157
+    },
+    {
+      "timestamp": "2026-06-03T08:05:14",
+      "source_ip": "189.70.254.237",
+      "username": "ana.lima",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 158
+    },
+    {
+      "timestamp": "2026-06-03T08:35:37",
+      "source_ip": "10.0.3.88",
+      "username": "marcos.oliveira",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 159
+    },
+    {
+      "timestamp": "2026-06-03T08:45:27",
+      "source_ip": "189.159.227.221",
+      "username": "ana.lima",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 160
+    },
+    {
+      "timestamp": "2026-06-03T11:32:47",
+      "source_ip": "10.0.5.140",
+      "username": "roberto.alves",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 161
+    },
+    {
+      "timestamp": "2026-06-03T11:53:40",
+      "source_ip": "189.164.177.143",
+      "username": "sandra.ferreira",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 162
+    },
+    {
+      "timestamp": "2026-06-03T13:07:49",
+      "source_ip": "189.76.213.161",
+      "username": "beatriz.campos",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 163
+    },
+    {
+      "timestamp": "2026-06-03T13:20:57",
+      "source_ip": "10.0.0.8",
+      "username": "fernanda.costa",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 164
+    },
+    {
+      "timestamp": "2026-06-03T14:05:23",
+      "source_ip": "10.0.5.140",
+      "username": "beatriz.campos",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 165
+    },
+    {
+      "timestamp": "2026-06-03T14:23:07",
+      "source_ip": "10.0.0.195",
+      "username": "patricia.rocha",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 166
+    },
+    {
+      "timestamp": "2026-06-03T15:46:41",
+      "source_ip": "10.0.5.140",
+      "username": "fabio.carvalho",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 167
+    },
+    {
+      "timestamp": "2026-06-03T17:27:57",
+      "source_ip": "10.0.2.27",
+      "username": "beatriz.campos",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 168
+    },
+    {
+      "timestamp": "2026-06-03T17:44:56",
+      "source_ip": "189.181.18.12",
+      "username": "sandra.ferreira",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 169
+    },
+    {
+      "timestamp": "2026-06-04T00:54:06",
+      "source_ip": "45.142.212.100",
+      "username": "sa",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Acesso à conta privilegiada - horário incomum",
+      "event_id": 170
+    },
+    {
+      "timestamp": "2026-06-04T08:28:16",
+      "source_ip": "10.0.2.207",
+      "username": "william.nunes",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 171
+    },
+    {
+      "timestamp": "2026-06-04T08:51:45",
+      "source_ip": "10.0.5.29",
+      "username": "joao.silva",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 172
+    },
+    {
+      "timestamp": "2026-06-04T10:28:53",
+      "source_ip": "189.26.98.72",
+      "username": "thiago.pereira",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 173
+    },
+    {
+      "timestamp": "2026-06-04T10:36:15",
+      "source_ip": "10.0.2.40",
+      "username": "beatriz.campos",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 174
+    },
+    {
+      "timestamp": "2026-06-04T11:25:44",
+      "source_ip": "10.0.1.179",
+      "username": "roberto.alves",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 175
+    },
+    {
+      "timestamp": "2026-06-04T12:01:53",
+      "source_ip": "10.0.2.208",
+      "username": "beatriz.campos",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 176
+    },
+    {
+      "timestamp": "2026-06-04T12:23:32",
+      "source_ip": "10.0.5.140",
+      "username": "fabio.carvalho",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 177
+    },
+    {
+      "timestamp": "2026-06-04T12:44:55",
+      "source_ip": "10.0.5.27",
+      "username": "elena.barbosa",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 178
+    },
+    {
+      "timestamp": "2026-06-04T13:57:59",
+      "source_ip": "10.0.1.246",
+      "username": "carlos.mendes",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 179
+    },
+    {
+      "timestamp": "2026-06-04T14:07:08",
+      "source_ip": "10.0.2.63",
+      "username": "carlos.mendes",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 180
+    },
+    {
+      "timestamp": "2026-06-04T14:54:57",
+      "source_ip": "189.93.148.50",
+      "username": "diego.martins",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 181
+    },
+    {
+      "timestamp": "2026-06-04T15:32:38",
+      "source_ip": "10.0.4.23",
+      "username": "diego.martins",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 182
+    },
+    {
+      "timestamp": "2026-06-04T15:36:50",
+      "source_ip": "10.0.1.130",
+      "username": "roberto.alves",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 183
+    },
+    {
+      "timestamp": "2026-06-04T15:41:34",
+      "source_ip": "10.0.0.187",
+      "username": "fabio.carvalho",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 184
+    },
+    {
+      "timestamp": "2026-06-04T17:17:54",
+      "source_ip": "10.0.5.27",
+      "username": "joao.silva",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 185
+    },
+    {
+      "timestamp": "2026-06-04T23:44:53",
+      "source_ip": "185.220.101.47",
+      "username": "lucia.santos",
+      "action": "API_CALL",
+      "status": "failure",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 186
+    },
+    {
+      "timestamp": "2026-06-05T09:00:29",
+      "source_ip": "10.0.5.27",
+      "username": "joao.silva",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 187
+    },
+    {
+      "timestamp": "2026-06-05T09:15:12",
+      "source_ip": "189.93.148.50",
+      "username": "patricia.rocha",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 188
+    },
+    {
+      "timestamp": "2026-06-05T09:46:57",
+      "source_ip": "189.76.213.161",
+      "username": "thiago.pereira",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 189
+    },
+    {
+      "timestamp": "2026-06-05T10:23:19",
+      "source_ip": "189.164.177.143",
+      "username": "vanessa.souza",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 190
+    },
+    {
+      "timestamp": "2026-06-05T10:40:16",
+      "source_ip": "189.42.119.98",
+      "username": "marcos.oliveira",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 191
+    },
+    {
+      "timestamp": "2026-06-05T10:46:29",
+      "source_ip": "10.0.1.246",
+      "username": "sandra.ferreira",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 192
+    },
+    {
+      "timestamp": "2026-06-05T10:50:57",
+      "source_ip": "10.0.2.208",
+      "username": "ana.lima",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 193
+    },
+    {
+      "timestamp": "2026-06-05T15:22:35",
+      "source_ip": "10.0.0.56",
+      "username": "sandra.ferreira",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 194
+    },
+    {
+      "timestamp": "2026-06-05T15:45:58",
+      "source_ip": "10.0.0.98",
+      "username": "beatriz.campos",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 195
+    },
+    {
+      "timestamp": "2026-06-05T16:17:52",
+      "source_ip": "10.0.0.195",
+      "username": "ana.lima",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 196
+    },
+    {
+      "timestamp": "2026-06-05T16:22:43",
+      "source_ip": "10.0.2.40",
+      "username": "dbadmin",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Acesso à conta privilegiada",
+      "event_id": 197
+    },
+    {
+      "timestamp": "2026-06-05T16:48:34",
+      "source_ip": "10.0.3.138",
+      "username": "beatriz.campos",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 198
+    },
+    {
+      "timestamp": "2026-06-05T17:14:41",
+      "source_ip": "189.117.163.214",
+      "username": "fernanda.costa",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 199
+    },
+    {
+      "timestamp": "2026-06-05T23:44:31",
+      "source_ip": "10.0.2.208",
+      "username": "william.nunes",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 200
+    },
+    {
+      "timestamp": "2026-06-06T01:36:08",
+      "source_ip": "10.0.0.92",
+      "username": "william.nunes",
+      "action": "FILE_ACCESS",
+      "status": "failure",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 201
+    },
+    {
+      "timestamp": "2026-06-06T04:04:24",
+      "source_ip": "91.108.4.201",
+      "username": "sysadmin",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Acesso à conta privilegiada - horário incomum",
+      "event_id": 202
+    },
+    {
+      "timestamp": "2026-06-06T10:15:41",
+      "source_ip": "10.0.3.138",
+      "username": "diego.martins",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 203
+    },
+    {
+      "timestamp": "2026-06-06T11:01:41",
+      "source_ip": "45.142.212.100",
+      "username": "marcos.oliveira",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 204
+    },
+    {
+      "timestamp": "2026-06-06T20:12:41",
+      "source_ip": "10.0.1.246",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 205
+    },
+    {
+      "timestamp": "2026-06-06T22:23:41",
+      "source_ip": "10.0.0.92",
+      "username": "diego.martins",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 206
+    },
+    {
+      "timestamp": "2026-06-07T03:24:05",
+      "source_ip": "10.0.5.140",
+      "username": "william.nunes",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 207
+    },
+    {
+      "timestamp": "2026-06-08T08:45:13",
+      "source_ip": "10.0.0.8",
+      "username": "patricia.rocha",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 208
+    },
+    {
+      "timestamp": "2026-06-08T08:47:39",
+      "source_ip": "10.0.5.140",
+      "username": "patricia.rocha",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 209
+    },
+    {
+      "timestamp": "2026-06-08T09:14:53",
+      "source_ip": "10.0.3.138",
+      "username": "joao.silva",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 210
+    },
+    {
+      "timestamp": "2026-06-08T09:36:32",
+      "source_ip": "10.0.0.56",
+      "username": "patricia.rocha",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 211
+    },
+    {
+      "timestamp": "2026-06-08T09:43:14",
+      "source_ip": "10.0.0.190",
+      "username": "fabio.carvalho",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 212
+    },
+    {
+      "timestamp": "2026-06-08T09:50:25",
+      "source_ip": "10.0.3.151",
+      "username": "ana.lima",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 213
+    },
+    {
+      "timestamp": "2026-06-08T10:12:08",
+      "source_ip": "189.159.227.221",
+      "username": "william.nunes",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 214
+    },
+    {
+      "timestamp": "2026-06-08T10:17:29",
+      "source_ip": "10.0.5.27",
+      "username": "roberto.alves",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 215
+    },
+    {
+      "timestamp": "2026-06-08T10:45:13",
+      "source_ip": "10.0.2.155",
+      "username": "fernanda.costa",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 216
+    },
+    {
+      "timestamp": "2026-06-08T10:47:24",
+      "source_ip": "10.0.4.7",
+      "username": "vanessa.souza",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 217
+    },
+    {
+      "timestamp": "2026-06-08T10:50:44",
+      "source_ip": "10.0.3.151",
+      "username": "fernanda.costa",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 218
+    },
+    {
+      "timestamp": "2026-06-08T11:09:41",
+      "source_ip": "189.70.254.237",
+      "username": "ana.lima",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 219
+    },
+    {
+      "timestamp": "2026-06-08T11:16:13",
+      "source_ip": "10.0.3.88",
+      "username": "vanessa.souza",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 220
+    },
+    {
+      "timestamp": "2026-06-08T11:28:48",
+      "source_ip": "10.0.1.130",
+      "username": "sandra.ferreira",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 221
+    },
+    {
+      "timestamp": "2026-06-08T12:04:13",
+      "source_ip": "10.0.5.167",
+      "username": "vanessa.souza",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 222
+    },
+    {
+      "timestamp": "2026-06-08T12:12:07",
+      "source_ip": "10.0.5.190",
+      "username": "elena.barbosa",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 223
+    },
+    {
+      "timestamp": "2026-06-08T12:21:29",
+      "source_ip": "10.0.3.151",
+      "username": "patricia.rocha",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 224
+    },
+    {
+      "timestamp": "2026-06-08T12:52:00",
+      "source_ip": "10.0.0.195",
+      "username": "patricia.rocha",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 225
+    },
+    {
+      "timestamp": "2026-06-08T13:25:44",
+      "source_ip": "189.181.18.12",
+      "username": "thiago.pereira",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 226
+    },
+    {
+      "timestamp": "2026-06-08T13:26:02",
+      "source_ip": "10.0.2.27",
+      "username": "roberto.alves",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 227
+    },
+    {
+      "timestamp": "2026-06-08T13:42:16",
+      "source_ip": "10.0.0.56",
+      "username": "william.nunes",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 228
+    },
+    {
+      "timestamp": "2026-06-08T13:42:43",
+      "source_ip": "189.137.187.63",
+      "username": "beatriz.campos",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 229
+    },
+    {
+      "timestamp": "2026-06-08T13:52:29",
+      "source_ip": "10.0.2.155",
+      "username": "beatriz.campos",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 230
+    },
+    {
+      "timestamp": "2026-06-08T14:43:47",
+      "source_ip": "189.26.98.72",
+      "username": "marcos.oliveira",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 231
+    },
+    {
+      "timestamp": "2026-06-08T14:55:58",
+      "source_ip": "10.0.0.195",
+      "username": "carlos.mendes",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 232
+    },
+    {
+      "timestamp": "2026-06-08T15:04:40",
+      "source_ip": "10.0.4.51",
+      "username": "fernanda.costa",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 233
+    },
+    {
+      "timestamp": "2026-06-08T15:05:30",
+      "source_ip": "10.0.2.155",
+      "username": "william.nunes",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 234
+    },
+    {
+      "timestamp": "2026-06-08T15:06:15",
+      "source_ip": "189.170.59.198",
+      "username": "beatriz.campos",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 235
+    },
+    {
+      "timestamp": "2026-06-08T15:06:28",
+      "source_ip": "10.0.1.130",
+      "username": "elena.barbosa",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 236
+    },
+    {
+      "timestamp": "2026-06-08T15:14:34",
+      "source_ip": "10.0.0.98",
+      "username": "patricia.rocha",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 237
+    },
+    {
+      "timestamp": "2026-06-08T15:17:19",
+      "source_ip": "10.0.5.140",
+      "username": "sandra.ferreira",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 238
+    },
+    {
+      "timestamp": "2026-06-08T15:30:13",
+      "source_ip": "10.0.1.36",
+      "username": "beatriz.campos",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 239
+    },
+    {
+      "timestamp": "2026-06-08T15:31:10",
+      "source_ip": "10.0.0.195",
+      "username": "fernanda.costa",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 240
+    },
+    {
+      "timestamp": "2026-06-08T15:41:16",
+      "source_ip": "10.0.4.23",
+      "username": "fabio.carvalho",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 241
+    },
+    {
+      "timestamp": "2026-06-08T15:49:43",
+      "source_ip": "10.0.4.7",
+      "username": "lucia.santos",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 242
+    },
+    {
+      "timestamp": "2026-06-08T16:49:39",
+      "source_ip": "10.0.2.207",
+      "username": "sa",
+      "action": "USER_CREATE",
+      "status": "success",
+      "details": "Acesso à conta privilegiada",
+      "event_id": 243
+    },
+    {
+      "timestamp": "2026-06-08T16:53:00",
+      "source_ip": "10.0.0.195",
+      "username": "thiago.pereira",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 244
+    },
+    {
+      "timestamp": "2026-06-08T16:58:30",
+      "source_ip": "10.0.0.98",
+      "username": "patricia.rocha",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 245
+    },
+    {
+      "timestamp": "2026-06-09T02:38:57",
+      "source_ip": "45.142.212.100",
+      "username": "sysadmin",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "Acesso à conta privilegiada - horário incomum",
+      "event_id": 246
+    },
+    {
+      "timestamp": "2026-06-09T05:42:22",
+      "source_ip": "10.0.0.195",
+      "username": "fernanda.costa",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 247
+    },
+    {
+      "timestamp": "2026-06-09T08:03:30",
+      "source_ip": "10.0.2.207",
+      "username": "beatriz.campos",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 248
+    },
+    {
+      "timestamp": "2026-06-09T09:09:48",
+      "source_ip": "189.69.180.240",
+      "username": "roberto.alves",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 249
+    },
+    {
+      "timestamp": "2026-06-09T09:38:02",
+      "source_ip": "189.42.119.98",
+      "username": "diego.martins",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 250
+    },
+    {
+      "timestamp": "2026-06-09T09:49:51",
+      "source_ip": "10.0.4.23",
+      "username": "roberto.alves",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 251
+    },
+    {
+      "timestamp": "2026-06-09T11:51:25",
+      "source_ip": "10.0.5.190",
+      "username": "marcos.oliveira",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 252
+    },
+    {
+      "timestamp": "2026-06-09T12:53:44",
+      "source_ip": "10.0.2.155",
+      "username": "fernanda.costa",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 253
+    },
+    {
+      "timestamp": "2026-06-09T13:27:52",
+      "source_ip": "10.0.0.56",
+      "username": "lucia.santos",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 254
+    },
+    {
+      "timestamp": "2026-06-09T13:43:47",
+      "source_ip": "189.75.253.21",
+      "username": "sandra.ferreira",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 255
+    },
+    {
+      "timestamp": "2026-06-09T14:24:05",
+      "source_ip": "10.0.3.88",
+      "username": "lucia.santos",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 256
+    },
+    {
+      "timestamp": "2026-06-09T14:31:38",
+      "source_ip": "10.0.2.155",
+      "username": "elena.barbosa",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 257
+    },
+    {
+      "timestamp": "2026-06-09T15:19:55",
+      "source_ip": "10.0.1.179",
+      "username": "diego.martins",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 258
+    },
+    {
+      "timestamp": "2026-06-09T16:14:39",
+      "source_ip": "189.137.187.63",
+      "username": "carlos.mendes",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 259
+    },
+    {
+      "timestamp": "2026-06-09T17:43:45",
+      "source_ip": "10.0.4.109",
+      "username": "carlos.mendes",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 260
+    },
+    {
+      "timestamp": "2026-06-10T02:04:45",
+      "source_ip": "10.0.2.63",
+      "username": "elena.barbosa",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 261
+    },
+    {
+      "timestamp": "2026-06-10T05:55:41",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "Tentativa de acesso não autorizado",
+      "event_id": 262
+    },
+    {
+      "timestamp": "2026-06-10T05:56:39",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 263
+    },
+    {
+      "timestamp": "2026-06-10T05:56:52",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "Credenciais inválidas",
+      "event_id": 264
+    },
+    {
+      "timestamp": "2026-06-10T05:57:19",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Tentativa de acesso não autorizado",
+      "event_id": 265
+    },
+    {
+      "timestamp": "2026-06-10T05:57:58",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Conta bloqueada",
+      "event_id": 266
+    },
+    {
+      "timestamp": "2026-06-10T05:58:14",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "Credenciais inválidas",
+      "event_id": 267
+    },
+    {
+      "timestamp": "2026-06-10T05:58:39",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "MFA falhou",
+      "event_id": 268
+    },
+    {
+      "timestamp": "2026-06-10T06:00:11",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "MFA falhou",
+      "event_id": 269
+    },
+    {
+      "timestamp": "2026-06-10T06:01:13",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 270
+    },
+    {
+      "timestamp": "2026-06-10T06:01:51",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Credenciais inválidas",
+      "event_id": 271
+    },
+    {
+      "timestamp": "2026-06-10T06:03:51",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "Tentativa de acesso não autorizado",
+      "event_id": 272
+    },
+    {
+      "timestamp": "2026-06-10T06:04:10",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 273
+    },
+    {
+      "timestamp": "2026-06-10T06:05:22",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "Tentativa de acesso não autorizado",
+      "event_id": 274
+    },
+    {
+      "timestamp": "2026-06-10T06:05:23",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "Conta bloqueada",
+      "event_id": 275
+    },
+    {
+      "timestamp": "2026-06-10T06:06:04",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 276
+    },
+    {
+      "timestamp": "2026-06-10T06:06:11",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "MFA falhou",
+      "event_id": 277
+    },
+    {
+      "timestamp": "2026-06-10T06:09:19",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 278
+    },
+    {
+      "timestamp": "2026-06-10T06:09:43",
+      "source_ip": "198.51.100.77",
+      "username": "administrator",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "IP bloqueado por política",
+      "event_id": 279
+    },
+    {
+      "timestamp": "2026-06-10T08:23:21",
+      "source_ip": "10.0.1.36",
+      "username": "dbadmin",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Acesso à conta privilegiada",
+      "event_id": 280
+    },
+    {
+      "timestamp": "2026-06-10T09:18:26",
+      "source_ip": "10.0.1.36",
+      "username": "fernanda.costa",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 281
+    },
+    {
+      "timestamp": "2026-06-10T10:36:40",
+      "source_ip": "10.0.3.88",
+      "username": "sandra.ferreira",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 282
+    },
+    {
+      "timestamp": "2026-06-10T11:22:35",
+      "source_ip": "10.0.5.167",
+      "username": "beatriz.campos",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 283
+    },
+    {
+      "timestamp": "2026-06-10T11:48:18",
+      "source_ip": "10.0.0.56",
+      "username": "vanessa.souza",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 284
+    },
+    {
+      "timestamp": "2026-06-10T12:21:39",
+      "source_ip": "189.94.42.95",
+      "username": "beatriz.campos",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 285
+    },
+    {
+      "timestamp": "2026-06-10T12:46:37",
+      "source_ip": "10.0.4.23",
+      "username": "thiago.pereira",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 286
+    },
+    {
+      "timestamp": "2026-06-10T15:21:11",
+      "source_ip": "10.0.3.151",
+      "username": "carlos.mendes",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 287
+    },
+    {
+      "timestamp": "2026-06-10T16:33:22",
+      "source_ip": "189.42.119.98",
+      "username": "diego.martins",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 288
+    },
+    {
+      "timestamp": "2026-06-11T04:55:41",
+      "source_ip": "185.220.101.47",
+      "username": "vanessa.souza",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 289
+    },
+    {
+      "timestamp": "2026-06-11T04:57:25",
+      "source_ip": "185.220.101.47",
+      "username": "fabio.carvalho",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 290
+    },
+    {
+      "timestamp": "2026-06-11T04:58:20",
+      "source_ip": "185.220.101.47",
+      "username": "carlos.mendes",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 291
+    },
+    {
+      "timestamp": "2026-06-11T04:59:09",
+      "source_ip": "185.220.101.47",
+      "username": "elena.barbosa",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 292
+    },
+    {
+      "timestamp": "2026-06-11T04:59:50",
+      "source_ip": "185.220.101.47",
+      "username": "roberto.alves",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 293
+    },
+    {
+      "timestamp": "2026-06-11T05:02:17",
+      "source_ip": "185.220.101.47",
+      "username": "beatriz.campos",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 294
+    },
+    {
+      "timestamp": "2026-06-11T08:53:54",
+      "source_ip": "10.0.2.155",
+      "username": "fernanda.costa",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 295
+    },
+    {
+      "timestamp": "2026-06-11T10:35:10",
+      "source_ip": "10.0.2.208",
+      "username": "vanessa.souza",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 296
+    },
+    {
+      "timestamp": "2026-06-11T12:08:59",
+      "source_ip": "10.0.5.27",
+      "username": "william.nunes",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 297
+    },
+    {
+      "timestamp": "2026-06-11T12:34:18",
+      "source_ip": "10.0.3.151",
+      "username": "ana.lima",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 298
+    },
+    {
+      "timestamp": "2026-06-11T12:35:55",
+      "source_ip": "189.69.180.240",
+      "username": "ana.lima",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 299
+    },
+    {
+      "timestamp": "2026-06-11T13:04:58",
+      "source_ip": "10.0.0.190",
+      "username": "joao.silva",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 300
+    },
+    {
+      "timestamp": "2026-06-11T14:20:11",
+      "source_ip": "10.0.3.138",
+      "username": "sa",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Acesso à conta privilegiada",
+      "event_id": 301
+    },
+    {
+      "timestamp": "2026-06-11T14:36:43",
+      "source_ip": "10.0.1.130",
+      "username": "marcos.oliveira",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 302
+    },
+    {
+      "timestamp": "2026-06-11T15:00:46",
+      "source_ip": "10.0.2.155",
+      "username": "lucia.santos",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 303
+    },
+    {
+      "timestamp": "2026-06-11T15:05:48",
+      "source_ip": "10.0.4.109",
+      "username": "carlos.mendes",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 304
+    },
+    {
+      "timestamp": "2026-06-11T16:34:31",
+      "source_ip": "10.0.0.195",
+      "username": "dbadmin",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Acesso à conta privilegiada",
+      "event_id": 305
+    },
+    {
+      "timestamp": "2026-06-11T17:21:05",
+      "source_ip": "189.69.180.240",
+      "username": "roberto.alves",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 306
+    },
+    {
+      "timestamp": "2026-06-12T04:55:41",
+      "source_ip": "91.108.4.201",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 307
+    },
+    {
+      "timestamp": "2026-06-12T04:57:00",
+      "source_ip": "91.108.4.201",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 308
+    },
+    {
+      "timestamp": "2026-06-12T04:58:29",
+      "source_ip": "91.108.4.201",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 309
+    },
+    {
+      "timestamp": "2026-06-12T05:01:12",
+      "source_ip": "91.108.4.201",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 310
+    },
+    {
+      "timestamp": "2026-06-12T05:02:19",
+      "source_ip": "91.108.4.201",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 311
+    },
+    {
+      "timestamp": "2026-06-12T05:06:40",
+      "source_ip": "91.108.4.201",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 312
+    },
+    {
+      "timestamp": "2026-06-12T05:07:27",
+      "source_ip": "91.108.4.201",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 313
+    },
+    {
+      "timestamp": "2026-06-12T05:12:41",
+      "source_ip": "91.108.4.201",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 314
+    },
+    {
+      "timestamp": "2026-06-12T05:48:09",
+      "source_ip": "203.0.113.42",
+      "username": "root",
+      "action": "FTP_LOGIN",
+      "status": "failure",
+      "details": "Acesso à conta privilegiada - horário incomum",
+      "event_id": 315
+    },
+    {
+      "timestamp": "2026-06-12T08:37:35",
+      "source_ip": "189.91.54.172",
+      "username": "vanessa.souza",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 316
+    },
+    {
+      "timestamp": "2026-06-12T10:31:18",
+      "source_ip": "10.0.5.190",
+      "username": "lucia.santos",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 317
+    },
+    {
+      "timestamp": "2026-06-12T12:38:34",
+      "source_ip": "10.0.1.130",
+      "username": "marcos.oliveira",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 318
+    },
+    {
+      "timestamp": "2026-06-12T12:51:11",
+      "source_ip": "189.91.54.172",
+      "username": "joao.silva",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 319
+    },
+    {
+      "timestamp": "2026-06-12T13:49:18",
+      "source_ip": "10.0.5.140",
+      "username": "beatriz.campos",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 320
+    },
+    {
+      "timestamp": "2026-06-12T14:52:14",
+      "source_ip": "10.0.5.140",
+      "username": "roberto.alves",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 321
+    },
+    {
+      "timestamp": "2026-06-12T15:03:22",
+      "source_ip": "10.0.0.92",
+      "username": "beatriz.campos",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 322
+    },
+    {
+      "timestamp": "2026-06-12T15:26:03",
+      "source_ip": "10.0.2.155",
+      "username": "patricia.rocha",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 323
+    },
+    {
+      "timestamp": "2026-06-12T15:43:51",
+      "source_ip": "10.0.2.27",
+      "username": "thiago.pereira",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 324
+    },
+    {
+      "timestamp": "2026-06-13T05:03:03",
+      "source_ip": "91.108.4.201",
+      "username": "administrator",
+      "action": "VPN_LOGIN",
+      "status": "failure",
+      "details": "Acesso à conta privilegiada - horário incomum",
+      "event_id": 325
+    },
+    {
+      "timestamp": "2026-06-13T10:46:41",
+      "source_ip": "10.0.2.207",
+      "username": "william.nunes",
+      "action": "FTP_LOGIN",
+      "status": "failure",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 326
+    },
+    {
+      "timestamp": "2026-06-13T19:52:41",
+      "source_ip": "10.0.0.195",
+      "username": "marcos.oliveira",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 327
+    },
+    {
+      "timestamp": "2026-06-14T01:19:25",
+      "source_ip": "10.0.2.155",
+      "username": "fabio.carvalho",
+      "action": "DB_QUERY",
+      "status": "failure",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 328
+    },
+    {
+      "timestamp": "2026-06-14T01:55:41",
+      "source_ip": "91.108.4.201",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 329
+    },
+    {
+      "timestamp": "2026-06-14T01:58:37",
+      "source_ip": "91.108.4.201",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 330
+    },
+    {
+      "timestamp": "2026-06-14T02:00:49",
+      "source_ip": "91.108.4.201",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 331
+    },
+    {
+      "timestamp": "2026-06-14T02:01:14",
+      "source_ip": "91.108.4.201",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 332
+    },
+    {
+      "timestamp": "2026-06-14T02:04:06",
+      "source_ip": "91.108.4.201",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 333
+    },
+    {
+      "timestamp": "2026-06-14T02:07:28",
+      "source_ip": "91.108.4.201",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 334
+    },
+    {
+      "timestamp": "2026-06-14T02:08:32",
+      "source_ip": "91.108.4.201",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 335
+    },
+    {
+      "timestamp": "2026-06-14T02:13:41",
+      "source_ip": "91.108.4.201",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 336
+    },
+    {
+      "timestamp": "2026-06-14T06:55:41",
+      "source_ip": "185.220.101.47",
+      "username": "patricia.rocha",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 337
+    },
+    {
+      "timestamp": "2026-06-14T06:57:09",
+      "source_ip": "185.220.101.47",
+      "username": "vanessa.souza",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 338
+    },
+    {
+      "timestamp": "2026-06-14T06:58:27",
+      "source_ip": "185.220.101.47",
+      "username": "sandra.ferreira",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 339
+    },
+    {
+      "timestamp": "2026-06-14T06:58:43",
+      "source_ip": "185.220.101.47",
+      "username": "fernanda.costa",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 340
+    },
+    {
+      "timestamp": "2026-06-14T06:59:48",
+      "source_ip": "185.220.101.47",
+      "username": "lucia.santos",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 341
+    },
+    {
+      "timestamp": "2026-06-14T07:02:52",
+      "source_ip": "185.220.101.47",
+      "username": "elena.barbosa",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 342
+    },
+    {
+      "timestamp": "2026-06-14T07:06:48",
+      "source_ip": "185.220.101.47",
+      "username": "beatriz.campos",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 343
+    },
+    {
+      "timestamp": "2026-06-15T02:55:41",
+      "source_ip": "91.108.4.201",
+      "username": "administrator",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 344
+    },
+    {
+      "timestamp": "2026-06-15T02:56:51",
+      "source_ip": "91.108.4.201",
+      "username": "administrator",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 345
+    },
+    {
+      "timestamp": "2026-06-15T02:57:44",
+      "source_ip": "91.108.4.201",
+      "username": "administrator",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 346
+    },
+    {
+      "timestamp": "2026-06-15T02:57:46",
+      "source_ip": "91.108.4.201",
+      "username": "administrator",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "IP bloqueado por política",
+      "event_id": 347
+    },
+    {
+      "timestamp": "2026-06-15T02:57:57",
+      "source_ip": "91.108.4.201",
+      "username": "administrator",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "Credenciais inválidas",
+      "event_id": 348
+    },
+    {
+      "timestamp": "2026-06-15T02:58:55",
+      "source_ip": "91.108.4.201",
+      "username": "administrator",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "Tentativa de acesso não autorizado",
+      "event_id": 349
+    },
+    {
+      "timestamp": "2026-06-15T02:59:27",
+      "source_ip": "91.108.4.201",
+      "username": "administrator",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Tentativa de acesso não autorizado",
+      "event_id": 350
+    },
+    {
+      "timestamp": "2026-06-15T02:59:32",
+      "source_ip": "91.108.4.201",
+      "username": "administrator",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 351
+    },
+    {
+      "timestamp": "2026-06-15T03:00:21",
+      "source_ip": "91.108.4.201",
+      "username": "administrator",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Credenciais inválidas",
+      "event_id": 352
+    },
+    {
+      "timestamp": "2026-06-15T03:01:14",
+      "source_ip": "91.108.4.201",
+      "username": "administrator",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 353
+    },
+    {
+      "timestamp": "2026-06-15T03:02:17",
+      "source_ip": "91.108.4.201",
+      "username": "administrator",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 354
+    },
+    {
+      "timestamp": "2026-06-15T03:03:46",
+      "source_ip": "91.108.4.201",
+      "username": "administrator",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "MFA falhou",
+      "event_id": 355
+    },
+    {
+      "timestamp": "2026-06-15T03:09:11",
+      "source_ip": "91.108.4.201",
+      "username": "administrator",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Tentativa de acesso não autorizado",
+      "event_id": 356
+    },
+    {
+      "timestamp": "2026-06-15T08:05:47",
+      "source_ip": "10.0.0.98",
+      "username": "patricia.rocha",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 357
+    },
+    {
+      "timestamp": "2026-06-15T08:14:04",
+      "source_ip": "10.0.2.40",
+      "username": "carlos.mendes",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 358
+    },
+    {
+      "timestamp": "2026-06-15T08:15:13",
+      "source_ip": "10.0.1.36",
+      "username": "fernanda.costa",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 359
+    },
+    {
+      "timestamp": "2026-06-15T09:17:49",
+      "source_ip": "10.0.2.208",
+      "username": "william.nunes",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 360
+    },
+    {
+      "timestamp": "2026-06-15T09:43:51",
+      "source_ip": "10.0.3.138",
+      "username": "marcos.oliveira",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 361
+    },
+    {
+      "timestamp": "2026-06-15T09:50:36",
+      "source_ip": "10.0.1.246",
+      "username": "carlos.mendes",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 362
+    },
+    {
+      "timestamp": "2026-06-15T09:51:55",
+      "source_ip": "10.0.4.7",
+      "username": "marcos.oliveira",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 363
+    },
+    {
+      "timestamp": "2026-06-15T09:57:33",
+      "source_ip": "10.0.4.109",
+      "username": "carlos.mendes",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 364
+    },
+    {
+      "timestamp": "2026-06-15T11:03:06",
+      "source_ip": "10.0.1.130",
+      "username": "diego.martins",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 365
+    },
+    {
+      "timestamp": "2026-06-15T11:17:28",
+      "source_ip": "189.156.163.44",
+      "username": "fernanda.costa",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 366
+    },
+    {
+      "timestamp": "2026-06-15T11:30:20",
+      "source_ip": "10.0.4.51",
+      "username": "marcos.oliveira",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 367
+    },
+    {
+      "timestamp": "2026-06-15T11:45:10",
+      "source_ip": "189.181.18.12",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 368
+    },
+    {
+      "timestamp": "2026-06-15T12:20:54",
+      "source_ip": "10.0.5.190",
+      "username": "roberto.alves",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 369
+    },
+    {
+      "timestamp": "2026-06-15T12:40:27",
+      "source_ip": "10.0.3.138",
+      "username": "sandra.ferreira",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 370
+    },
+    {
+      "timestamp": "2026-06-15T12:50:57",
+      "source_ip": "10.0.2.207",
+      "username": "dbadmin",
+      "action": "USER_CREATE",
+      "status": "success",
+      "details": "Acesso à conta privilegiada",
+      "event_id": 371
+    },
+    {
+      "timestamp": "2026-06-15T13:31:01",
+      "source_ip": "10.0.2.27",
+      "username": "joao.silva",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 372
+    },
+    {
+      "timestamp": "2026-06-15T13:46:08",
+      "source_ip": "10.0.0.195",
+      "username": "fernanda.costa",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 373
+    },
+    {
+      "timestamp": "2026-06-15T13:48:57",
+      "source_ip": "189.26.98.72",
+      "username": "elena.barbosa",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 374
+    },
+    {
+      "timestamp": "2026-06-15T14:17:02",
+      "source_ip": "10.0.5.167",
+      "username": "william.nunes",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 375
+    },
+    {
+      "timestamp": "2026-06-15T14:27:11",
+      "source_ip": "10.0.3.88",
+      "username": "fabio.carvalho",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 376
+    },
+    {
+      "timestamp": "2026-06-15T14:39:25",
+      "source_ip": "10.0.4.7",
+      "username": "joao.silva",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 377
+    },
+    {
+      "timestamp": "2026-06-15T14:39:43",
+      "source_ip": "189.97.21.142",
+      "username": "roberto.alves",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 378
+    },
+    {
+      "timestamp": "2026-06-15T15:12:15",
+      "source_ip": "10.0.2.208",
+      "username": "sandra.ferreira",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 379
+    },
+    {
+      "timestamp": "2026-06-15T15:16:41",
+      "source_ip": "10.0.0.195",
+      "username": "sysadmin",
+      "action": "PRIVILEGE_ESCALATION",
+      "status": "success",
+      "details": "Acesso à conta privilegiada",
+      "event_id": 380
+    },
+    {
+      "timestamp": "2026-06-15T15:37:25",
+      "source_ip": "10.0.2.208",
+      "username": "diego.martins",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 381
+    },
+    {
+      "timestamp": "2026-06-15T15:40:28",
+      "source_ip": "10.0.5.167",
+      "username": "carlos.mendes",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 382
+    },
+    {
+      "timestamp": "2026-06-15T15:55:09",
+      "source_ip": "189.93.148.50",
+      "username": "elena.barbosa",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 383
+    },
+    {
+      "timestamp": "2026-06-15T16:09:10",
+      "source_ip": "10.0.2.207",
+      "username": "vanessa.souza",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 384
+    },
+    {
+      "timestamp": "2026-06-15T16:24:57",
+      "source_ip": "10.0.2.155",
+      "username": "beatriz.campos",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 385
+    },
+    {
+      "timestamp": "2026-06-15T16:25:43",
+      "source_ip": "10.0.0.190",
+      "username": "vanessa.souza",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 386
+    },
+    {
+      "timestamp": "2026-06-15T16:46:55",
+      "source_ip": "10.0.2.207",
+      "username": "patricia.rocha",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 387
+    },
+    {
+      "timestamp": "2026-06-15T17:00:16",
+      "source_ip": "10.0.1.246",
+      "username": "william.nunes",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 388
+    },
+    {
+      "timestamp": "2026-06-15T17:01:03",
+      "source_ip": "10.0.3.57",
+      "username": "vanessa.souza",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 389
+    },
+    {
+      "timestamp": "2026-06-15T17:12:29",
+      "source_ip": "10.0.5.27",
+      "username": "joao.silva",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 390
+    },
+    {
+      "timestamp": "2026-06-15T17:15:15",
+      "source_ip": "10.0.2.40",
+      "username": "carlos.mendes",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 391
+    },
+    {
+      "timestamp": "2026-06-15T17:50:39",
+      "source_ip": "189.164.177.143",
+      "username": "roberto.alves",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 392
+    },
+    {
+      "timestamp": "2026-06-16T00:55:41",
+      "source_ip": "203.0.113.42",
+      "username": "joao.silva",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 393
+    },
+    {
+      "timestamp": "2026-06-16T00:57:00",
+      "source_ip": "203.0.113.42",
+      "username": "joao.silva",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 394
+    },
+    {
+      "timestamp": "2026-06-16T00:59:29",
+      "source_ip": "203.0.113.42",
+      "username": "joao.silva",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 395
+    },
+    {
+      "timestamp": "2026-06-16T01:01:46",
+      "source_ip": "203.0.113.42",
+      "username": "joao.silva",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 396
+    },
+    {
+      "timestamp": "2026-06-16T01:06:20",
+      "source_ip": "203.0.113.42",
+      "username": "joao.silva",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 397
+    },
+    {
+      "timestamp": "2026-06-16T01:06:41",
+      "source_ip": "203.0.113.42",
+      "username": "joao.silva",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 398
+    },
+    {
+      "timestamp": "2026-06-16T08:05:41",
+      "source_ip": "10.0.0.8",
+      "username": "diego.martins",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 399
+    },
+    {
+      "timestamp": "2026-06-16T09:10:15",
+      "source_ip": "189.181.18.12",
+      "username": "marcos.oliveira",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 400
+    },
+    {
+      "timestamp": "2026-06-16T09:54:10",
+      "source_ip": "10.0.2.155",
+      "username": "vanessa.souza",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 401
+    },
+    {
+      "timestamp": "2026-06-16T10:20:07",
+      "source_ip": "10.0.0.56",
+      "username": "roberto.alves",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 402
+    },
+    {
+      "timestamp": "2026-06-16T10:45:27",
+      "source_ip": "10.0.2.63",
+      "username": "beatriz.campos",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 403
+    },
+    {
+      "timestamp": "2026-06-16T11:32:30",
+      "source_ip": "189.91.54.172",
+      "username": "marcos.oliveira",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 404
+    },
+    {
+      "timestamp": "2026-06-16T12:57:34",
+      "source_ip": "10.0.5.190",
+      "username": "carlos.mendes",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 405
+    },
+    {
+      "timestamp": "2026-06-16T13:04:32",
+      "source_ip": "10.0.5.29",
+      "username": "vanessa.souza",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 406
+    },
+    {
+      "timestamp": "2026-06-16T13:10:41",
+      "source_ip": "10.0.0.195",
+      "username": "carlos.mendes",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 407
+    },
+    {
+      "timestamp": "2026-06-16T14:52:48",
+      "source_ip": "10.0.3.138",
+      "username": "carlos.mendes",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 408
+    },
+    {
+      "timestamp": "2026-06-16T15:01:00",
+      "source_ip": "10.0.5.29",
+      "username": "diego.martins",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 409
+    },
+    {
+      "timestamp": "2026-06-16T15:08:40",
+      "source_ip": "10.0.4.109",
+      "username": "thiago.pereira",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 410
+    },
+    {
+      "timestamp": "2026-06-16T16:01:46",
+      "source_ip": "10.0.1.246",
+      "username": "elena.barbosa",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 411
+    },
+    {
+      "timestamp": "2026-06-16T16:19:59",
+      "source_ip": "10.0.0.8",
+      "username": "joao.silva",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 412
+    },
+    {
+      "timestamp": "2026-06-16T16:26:37",
+      "source_ip": "10.0.2.155",
+      "username": "lucia.santos",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 413
+    },
+    {
+      "timestamp": "2026-06-16T17:36:33",
+      "source_ip": "10.0.3.151",
+      "username": "vanessa.souza",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 414
+    },
+    {
+      "timestamp": "2026-06-16T17:42:24",
+      "source_ip": "10.0.0.98",
+      "username": "fernanda.costa",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 415
+    },
+    {
+      "timestamp": "2026-06-16T17:55:50",
+      "source_ip": "10.0.3.151",
+      "username": "fernanda.costa",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 416
+    },
+    {
+      "timestamp": "2026-06-17T01:55:41",
+      "source_ip": "45.142.212.100",
+      "username": "sa",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "MFA falhou",
+      "event_id": 417
+    },
+    {
+      "timestamp": "2026-06-17T01:56:38",
+      "source_ip": "45.142.212.100",
+      "username": "sa",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 418
+    },
+    {
+      "timestamp": "2026-06-17T01:56:43",
+      "source_ip": "45.142.212.100",
+      "username": "sa",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "Senha incorreta",
+      "event_id": 419
+    },
+    {
+      "timestamp": "2026-06-17T01:57:27",
+      "source_ip": "45.142.212.100",
+      "username": "sa",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "MFA falhou",
+      "event_id": 420
+    },
+    {
+      "timestamp": "2026-06-17T01:57:54",
+      "source_ip": "45.142.212.100",
+      "username": "sa",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "Credenciais inválidas",
+      "event_id": 421
+    },
+    {
+      "timestamp": "2026-06-17T01:58:03",
+      "source_ip": "45.142.212.100",
+      "username": "sa",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 422
+    },
+    {
+      "timestamp": "2026-06-17T01:59:51",
+      "source_ip": "45.142.212.100",
+      "username": "sa",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 423
+    },
+    {
+      "timestamp": "2026-06-17T02:00:18",
+      "source_ip": "45.142.212.100",
+      "username": "sa",
+      "action": "LOGIN",
+      "status": "failure",
+      "details": "IP bloqueado por política",
+      "event_id": 424
+    },
+    {
+      "timestamp": "2026-06-17T02:01:57",
+      "source_ip": "45.142.212.100",
+      "username": "sa",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 425
+    },
+    {
+      "timestamp": "2026-06-17T02:02:23",
+      "source_ip": "45.142.212.100",
+      "username": "sa",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "Usuário não encontrado",
+      "event_id": 426
+    },
+    {
+      "timestamp": "2026-06-17T02:02:35",
+      "source_ip": "45.142.212.100",
+      "username": "sa",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "Conta bloqueada",
+      "event_id": 427
+    },
+    {
+      "timestamp": "2026-06-17T02:05:10",
+      "source_ip": "45.142.212.100",
+      "username": "sa",
+      "action": "SSH_LOGIN",
+      "status": "failure",
+      "details": "Tentativa de acesso não autorizado",
+      "event_id": 428
+    },
+    {
+      "timestamp": "2026-06-17T02:50:23",
+      "source_ip": "10.0.4.109",
+      "username": "roberto.alves",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 429
+    },
+    {
+      "timestamp": "2026-06-17T08:54:56",
+      "source_ip": "189.32.250.237",
+      "username": "beatriz.campos",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 430
+    },
+    {
+      "timestamp": "2026-06-17T09:40:58",
+      "source_ip": "10.0.4.7",
+      "username": "thiago.pereira",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 431
+    },
+    {
+      "timestamp": "2026-06-17T10:05:31",
+      "source_ip": "10.0.3.88",
+      "username": "diego.martins",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 432
+    },
+    {
+      "timestamp": "2026-06-17T10:33:13",
+      "source_ip": "10.0.1.130",
+      "username": "sysadmin",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Acesso à conta privilegiada",
+      "event_id": 433
+    },
+    {
+      "timestamp": "2026-06-17T11:04:37",
+      "source_ip": "10.0.4.23",
+      "username": "roberto.alves",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 434
+    },
+    {
+      "timestamp": "2026-06-17T11:19:43",
+      "source_ip": "10.0.3.88",
+      "username": "fernanda.costa",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 435
+    },
+    {
+      "timestamp": "2026-06-17T11:36:24",
+      "source_ip": "189.164.177.143",
+      "username": "roberto.alves",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 436
+    },
+    {
+      "timestamp": "2026-06-17T11:45:19",
+      "source_ip": "189.91.54.172",
+      "username": "beatriz.campos",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 437
+    },
+    {
+      "timestamp": "2026-06-17T12:44:25",
+      "source_ip": "189.76.213.161",
+      "username": "sandra.ferreira",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 438
+    },
+    {
+      "timestamp": "2026-06-17T13:15:16",
+      "source_ip": "10.0.0.8",
+      "username": "beatriz.campos",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 439
+    },
+    {
+      "timestamp": "2026-06-17T13:29:31",
+      "source_ip": "10.0.0.195",
+      "username": "vanessa.souza",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 440
+    },
+    {
+      "timestamp": "2026-06-17T14:26:09",
+      "source_ip": "10.0.4.51",
+      "username": "thiago.pereira",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 441
+    },
+    {
+      "timestamp": "2026-06-17T14:35:00",
+      "source_ip": "10.0.5.27",
+      "username": "joao.silva",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 442
+    },
+    {
+      "timestamp": "2026-06-17T15:04:57",
+      "source_ip": "10.0.3.88",
+      "username": "fernanda.costa",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 443
+    },
+    {
+      "timestamp": "2026-06-17T15:41:45",
+      "source_ip": "10.0.0.187",
+      "username": "fabio.carvalho",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 444
+    },
+    {
+      "timestamp": "2026-06-17T17:45:13",
+      "source_ip": "10.0.3.138",
+      "username": "beatriz.campos",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 445
+    },
+    {
+      "timestamp": "2026-06-18T02:02:22",
+      "source_ip": "10.0.4.7",
+      "username": "vanessa.souza",
+      "action": "API_CALL",
+      "status": "failure",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 446
+    },
+    {
+      "timestamp": "2026-06-18T08:37:30",
+      "source_ip": "10.0.3.151",
+      "username": "root",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Acesso à conta privilegiada",
+      "event_id": 447
+    },
+    {
+      "timestamp": "2026-06-18T09:47:48",
+      "source_ip": "10.0.3.138",
+      "username": "fabio.carvalho",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 448
+    },
+    {
+      "timestamp": "2026-06-18T11:23:27",
+      "source_ip": "189.91.54.172",
+      "username": "fernanda.costa",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 449
+    },
+    {
+      "timestamp": "2026-06-18T13:10:08",
+      "source_ip": "10.0.5.190",
+      "username": "fabio.carvalho",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 450
+    },
+    {
+      "timestamp": "2026-06-18T13:27:38",
+      "source_ip": "10.0.0.98",
+      "username": "joao.silva",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 451
+    },
+    {
+      "timestamp": "2026-06-18T13:50:59",
+      "source_ip": "189.91.54.172",
+      "username": "diego.martins",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 452
+    },
+    {
+      "timestamp": "2026-06-18T16:42:45",
+      "source_ip": "10.0.0.56",
+      "username": "fabio.carvalho",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 453
+    },
+    {
+      "timestamp": "2026-06-18T16:57:15",
+      "source_ip": "10.0.2.40",
+      "username": "marcos.oliveira",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 454
+    },
+    {
+      "timestamp": "2026-06-19T08:26:08",
+      "source_ip": "10.0.2.63",
+      "username": "roberto.alves",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 455
+    },
+    {
+      "timestamp": "2026-06-19T10:18:02",
+      "source_ip": "10.0.1.246",
+      "username": "thiago.pereira",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 456
+    },
+    {
+      "timestamp": "2026-06-19T10:40:06",
+      "source_ip": "10.0.1.179",
+      "username": "carlos.mendes",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 457
+    },
+    {
+      "timestamp": "2026-06-19T13:01:40",
+      "source_ip": "10.0.0.92",
+      "username": "sandra.ferreira",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 458
+    },
+    {
+      "timestamp": "2026-06-19T13:50:27",
+      "source_ip": "10.0.5.29",
+      "username": "joao.silva",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 459
+    },
+    {
+      "timestamp": "2026-06-19T14:17:48",
+      "source_ip": "10.0.3.151",
+      "username": "diego.martins",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 460
+    },
+    {
+      "timestamp": "2026-06-19T15:34:13",
+      "source_ip": "10.0.1.36",
+      "username": "diego.martins",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 461
+    },
+    {
+      "timestamp": "2026-06-19T16:07:22",
+      "source_ip": "10.0.4.109",
+      "username": "diego.martins",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 462
+    },
+    {
+      "timestamp": "2026-06-19T16:30:15",
+      "source_ip": "10.0.0.56",
+      "username": "roberto.alves",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 463
+    },
+    {
+      "timestamp": "2026-06-19T16:49:08",
+      "source_ip": "189.91.54.172",
+      "username": "lucia.santos",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 464
+    },
+    {
+      "timestamp": "2026-06-19T22:23:02",
+      "source_ip": "185.220.101.47",
+      "username": "sa",
+      "action": "PRIVILEGE_ESCALATION",
+      "status": "failure",
+      "details": "Acesso à conta privilegiada - horário incomum",
+      "event_id": 465
+    },
+    {
+      "timestamp": "2026-06-20T01:42:40",
+      "source_ip": "10.0.2.27",
+      "username": "beatriz.campos",
+      "action": "WEB_REQUEST",
+      "status": "failure",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 466
+    },
+    {
+      "timestamp": "2026-06-20T10:09:41",
+      "source_ip": "10.0.2.63",
+      "username": "elena.barbosa",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 467
+    },
+    {
+      "timestamp": "2026-06-21T00:40:32",
+      "source_ip": "10.0.0.56",
+      "username": "roberto.alves",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 468
+    },
+    {
+      "timestamp": "2026-06-21T01:08:06",
+      "source_ip": "194.165.16.72",
+      "username": "sa",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Acesso à conta privilegiada - horário incomum",
+      "event_id": 469
+    },
+    {
+      "timestamp": "2026-06-22T08:18:22",
+      "source_ip": "10.0.2.207",
+      "username": "william.nunes",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 470
+    },
+    {
+      "timestamp": "2026-06-22T08:29:08",
+      "source_ip": "10.0.5.140",
+      "username": "diego.martins",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 471
+    },
+    {
+      "timestamp": "2026-06-22T08:43:41",
+      "source_ip": "10.0.1.36",
+      "username": "joao.silva",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 472
+    },
+    {
+      "timestamp": "2026-06-22T08:48:01",
+      "source_ip": "10.0.5.140",
+      "username": "thiago.pereira",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 473
+    },
+    {
+      "timestamp": "2026-06-22T08:58:38",
+      "source_ip": "10.0.0.195",
+      "username": "fabio.carvalho",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 474
+    },
+    {
+      "timestamp": "2026-06-22T09:22:54",
+      "source_ip": "10.0.4.109",
+      "username": "william.nunes",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 475
+    },
+    {
+      "timestamp": "2026-06-22T09:23:16",
+      "source_ip": "10.0.2.27",
+      "username": "roberto.alves",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 476
+    },
+    {
+      "timestamp": "2026-06-22T09:25:31",
+      "source_ip": "189.170.59.198",
+      "username": "fernanda.costa",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 477
+    },
+    {
+      "timestamp": "2026-06-22T09:29:26",
+      "source_ip": "189.156.163.44",
+      "username": "patricia.rocha",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 478
+    },
+    {
+      "timestamp": "2026-06-22T09:46:29",
+      "source_ip": "10.0.2.207",
+      "username": "william.nunes",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 479
+    },
+    {
+      "timestamp": "2026-06-22T10:04:38",
+      "source_ip": "189.69.180.240",
+      "username": "fernanda.costa",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 480
+    },
+    {
+      "timestamp": "2026-06-22T10:06:58",
+      "source_ip": "10.0.3.151",
+      "username": "joao.silva",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 481
+    },
+    {
+      "timestamp": "2026-06-22T10:16:58",
+      "source_ip": "10.0.0.195",
+      "username": "fabio.carvalho",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 482
+    },
+    {
+      "timestamp": "2026-06-22T10:31:59",
+      "source_ip": "189.76.213.161",
+      "username": "thiago.pereira",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 483
+    },
+    {
+      "timestamp": "2026-06-22T10:51:51",
+      "source_ip": "10.0.2.155",
+      "username": "marcos.oliveira",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 484
+    },
+    {
+      "timestamp": "2026-06-22T11:09:01",
+      "source_ip": "10.0.3.57",
+      "username": "carlos.mendes",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 485
+    },
+    {
+      "timestamp": "2026-06-22T11:18:02",
+      "source_ip": "10.0.4.109",
+      "username": "sandra.ferreira",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 486
+    },
+    {
+      "timestamp": "2026-06-22T11:45:04",
+      "source_ip": "10.0.0.8",
+      "username": "fernanda.costa",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 487
+    },
+    {
+      "timestamp": "2026-06-22T11:52:13",
+      "source_ip": "10.0.0.195",
+      "username": "carlos.mendes",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 488
+    },
+    {
+      "timestamp": "2026-06-22T12:38:47",
+      "source_ip": "10.0.0.187",
+      "username": "thiago.pereira",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 489
+    },
+    {
+      "timestamp": "2026-06-22T13:11:31",
+      "source_ip": "10.0.1.246",
+      "username": "patricia.rocha",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 490
+    },
+    {
+      "timestamp": "2026-06-22T13:14:40",
+      "source_ip": "189.26.98.72",
+      "username": "patricia.rocha",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 491
+    },
+    {
+      "timestamp": "2026-06-22T13:19:58",
+      "source_ip": "10.0.4.23",
+      "username": "ana.lima",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 492
+    },
+    {
+      "timestamp": "2026-06-22T13:44:57",
+      "source_ip": "10.0.1.36",
+      "username": "fernanda.costa",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 493
+    },
+    {
+      "timestamp": "2026-06-22T14:00:18",
+      "source_ip": "10.0.4.51",
+      "username": "diego.martins",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 494
+    },
+    {
+      "timestamp": "2026-06-22T14:32:20",
+      "source_ip": "10.0.4.51",
+      "username": "fernanda.costa",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 495
+    },
+    {
+      "timestamp": "2026-06-22T14:50:31",
+      "source_ip": "10.0.3.138",
+      "username": "marcos.oliveira",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 496
+    },
+    {
+      "timestamp": "2026-06-22T15:06:55",
+      "source_ip": "189.170.59.198",
+      "username": "ana.lima",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 497
+    },
+    {
+      "timestamp": "2026-06-22T15:22:19",
+      "source_ip": "10.0.5.140",
+      "username": "roberto.alves",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Token válido",
+      "event_id": 498
+    },
+    {
+      "timestamp": "2026-06-22T15:30:15",
+      "source_ip": "189.181.18.12",
+      "username": "elena.barbosa",
+      "action": "SSH_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 499
+    },
+    {
+      "timestamp": "2026-06-22T15:39:03",
+      "source_ip": "10.0.5.29",
+      "username": "william.nunes",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 500
+    },
+    {
+      "timestamp": "2026-06-22T15:39:11",
+      "source_ip": "10.0.3.138",
+      "username": "thiago.pereira",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 501
+    },
+    {
+      "timestamp": "2026-06-22T15:48:53",
+      "source_ip": "10.0.3.138",
+      "username": "vanessa.souza",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 502
+    },
+    {
+      "timestamp": "2026-06-22T15:58:03",
+      "source_ip": "10.0.5.167",
+      "username": "diego.martins",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 503
+    },
+    {
+      "timestamp": "2026-06-22T16:17:59",
+      "source_ip": "10.0.5.27",
+      "username": "sandra.ferreira",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 504
+    },
+    {
+      "timestamp": "2026-06-22T16:24:20",
+      "source_ip": "189.93.148.50",
+      "username": "fabio.carvalho",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 505
+    },
+    {
+      "timestamp": "2026-06-22T16:28:57",
+      "source_ip": "189.42.119.98",
+      "username": "marcos.oliveira",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 506
+    },
+    {
+      "timestamp": "2026-06-22T16:29:17",
+      "source_ip": "10.0.0.92",
+      "username": "patricia.rocha",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 507
+    },
+    {
+      "timestamp": "2026-06-22T16:29:26",
+      "source_ip": "10.0.4.51",
+      "username": "carlos.mendes",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 508
+    },
+    {
+      "timestamp": "2026-06-22T17:38:41",
+      "source_ip": "10.0.3.138",
+      "username": "vanessa.souza",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 509
+    },
+    {
+      "timestamp": "2026-06-22T17:40:27",
+      "source_ip": "10.0.1.179",
+      "username": "marcos.oliveira",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 510
+    },
+    {
+      "timestamp": "2026-06-22T17:42:51",
+      "source_ip": "10.0.2.207",
+      "username": "patricia.rocha",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 511
+    },
+    {
+      "timestamp": "2026-06-23T08:00:19",
+      "source_ip": "10.0.3.138",
+      "username": "joao.silva",
+      "action": "API_CALL",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 512
+    },
+    {
+      "timestamp": "2026-06-23T08:05:40",
+      "source_ip": "10.0.2.208",
+      "username": "diego.martins",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 513
+    },
+    {
+      "timestamp": "2026-06-23T09:47:35",
+      "source_ip": "10.0.2.208",
+      "username": "lucia.santos",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 514
+    },
+    {
+      "timestamp": "2026-06-23T11:31:14",
+      "source_ip": "10.0.2.207",
+      "username": "sandra.ferreira",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Autenticação bem-sucedida",
+      "event_id": 515
+    },
+    {
+      "timestamp": "2026-06-23T12:43:34",
+      "source_ip": "10.0.5.27",
+      "username": "marcos.oliveira",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 516
+    },
+    {
+      "timestamp": "2026-06-23T15:09:16",
+      "source_ip": "10.0.3.57",
+      "username": "lucia.santos",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 517
+    },
+    {
+      "timestamp": "2026-06-23T16:28:07",
+      "source_ip": "10.0.5.140",
+      "username": "roberto.alves",
+      "action": "LOGIN",
+      "status": "success",
+      "details": "Acesso autorizado",
+      "event_id": 518
+    },
+    {
+      "timestamp": "2026-06-23T16:48:17",
+      "source_ip": "10.0.4.109",
+      "username": "vanessa.souza",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Login via 2FA",
+      "event_id": 519
+    },
+    {
+      "timestamp": "2026-06-23T17:30:17",
+      "source_ip": "10.0.3.138",
+      "username": "carlos.mendes",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 520
+    },
+    {
+      "timestamp": "2026-06-24T03:07:08",
+      "source_ip": "10.0.0.187",
+      "username": "fernanda.costa",
+      "action": "RDP_LOGIN",
+      "status": "failure",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 521
+    },
+    {
+      "timestamp": "2026-06-24T04:49:16",
+      "source_ip": "10.0.5.167",
+      "username": "elena.barbosa",
+      "action": "FTP_LOGIN",
+      "status": "failure",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 522
+    },
+    {
+      "timestamp": "2026-06-24T08:17:55",
+      "source_ip": "10.0.1.246",
+      "username": "lucia.santos",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 523
+    },
+    {
+      "timestamp": "2026-06-24T09:29:08",
+      "source_ip": "189.91.54.172",
+      "username": "elena.barbosa",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 524
+    },
+    {
+      "timestamp": "2026-06-24T09:41:36",
+      "source_ip": "10.0.2.208",
+      "username": "roberto.alves",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 525
+    },
+    {
+      "timestamp": "2026-06-24T09:55:40",
+      "source_ip": "189.117.163.214",
+      "username": "thiago.pereira",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 526
+    },
+    {
+      "timestamp": "2026-06-24T09:59:30",
+      "source_ip": "10.0.0.56",
+      "username": "carlos.mendes",
+      "action": "WEB_REQUEST",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 527
+    },
+    {
+      "timestamp": "2026-06-24T10:26:56",
+      "source_ip": "10.0.3.138",
+      "username": "marcos.oliveira",
+      "action": "FILE_ACCESS",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 528
+    },
+    {
+      "timestamp": "2026-06-24T10:39:34",
+      "source_ip": "10.0.0.92",
+      "username": "ana.lima",
+      "action": "FTP_LOGIN",
+      "status": "success",
+      "details": "Credenciais válidas",
+      "event_id": 529
+    },
+    {
+      "timestamp": "2026-06-24T15:54:23",
+      "source_ip": "10.0.2.208",
+      "username": "fernanda.costa",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso normal ao sistema",
+      "event_id": 530
+    },
+    {
+      "timestamp": "2026-06-24T17:36:30",
+      "source_ip": "189.32.250.237",
+      "username": "roberto.alves",
+      "action": "VPN_LOGIN",
+      "status": "success",
+      "details": "Sessão iniciada",
+      "event_id": 531
+    },
+    {
+      "timestamp": "2026-06-27T17:56:41",
+      "source_ip": "10.0.0.190",
+      "username": "william.nunes",
+      "action": "DB_QUERY",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 532
+    },
+    {
+      "timestamp": "2026-06-27T21:41:41",
+      "source_ip": "10.0.0.56",
+      "username": "vanessa.souza",
+      "action": "RDP_LOGIN",
+      "status": "success",
+      "details": "Acesso fora do horário padrão",
+      "event_id": 533
+    }
+  ]
+}

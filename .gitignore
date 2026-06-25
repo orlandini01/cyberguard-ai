@@ -1,0 +1,45 @@
+# ─── Segurança (NUNCA commitar) ──────────────────────────────
+.env
+*.db
+*.sqlite3
+
+# ─── Relatórios gerados ───────────────────────────────────────
+reports/*.pdf
+reports/*.html
+
+# ─── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ─── Ambiente virtual ─────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ─── Testes e cobertura ───────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# ─── IDEs ─────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ─── Sistema operacional ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Logs da aplicação ────────────────────────────────────────
+*.log
+logs/

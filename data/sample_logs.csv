@@ -1,0 +1,534 @@
+event_id,timestamp,source_ip,username,action,status,details
+1,2026-05-26 00:16:13,10.0.2.207,lucia.santos,SSH_LOGIN,success,Acesso fora do horário padrão
+2,2026-05-26 03:36:26,10.0.5.190,marcos.oliveira,WEB_REQUEST,success,Acesso fora do horário padrão
+3,2026-05-26 11:32:29,10.0.0.190,william.nunes,WEB_REQUEST,success,Acesso normal ao sistema
+4,2026-05-26 11:37:09,10.0.3.138,beatriz.campos,FILE_ACCESS,success,Acesso normal ao sistema
+5,2026-05-26 12:35:59,10.0.0.56,diego.martins,DB_QUERY,success,Acesso normal ao sistema
+6,2026-05-26 13:50:18,10.0.5.190,patricia.rocha,WEB_REQUEST,success,Acesso normal ao sistema
+7,2026-05-26 13:50:50,189.75.253.21,roberto.alves,RDP_LOGIN,success,Autenticação bem-sucedida
+8,2026-05-26 14:16:59,10.0.0.195,elena.barbosa,VPN_LOGIN,success,Token válido
+9,2026-05-26 14:21:53,10.0.0.92,beatriz.campos,API_CALL,success,Acesso normal ao sistema
+10,2026-05-26 14:28:44,10.0.0.195,fabio.carvalho,LOGIN,success,Sessão iniciada
+11,2026-05-26 15:20:26,10.0.5.167,root,PRIVILEGE_ESCALATION,success,Acesso à conta privilegiada
+12,2026-05-26 16:03:22,189.94.42.95,roberto.alves,LOGIN,success,Token válido
+13,2026-05-26 17:35:14,10.0.5.29,roberto.alves,LOGIN,success,Token válido
+14,2026-05-27 00:02:08,194.165.16.72,dbadmin,FTP_LOGIN,success,Acesso à conta privilegiada - horário incomum
+15,2026-05-27 00:20:59,10.0.0.92,thiago.pereira,WEB_REQUEST,success,Acesso fora do horário padrão
+16,2026-05-27 08:15:12,189.26.98.72,ana.lima,SSH_LOGIN,success,Sessão iniciada
+17,2026-05-27 09:27:14,10.0.1.130,fernanda.costa,WEB_REQUEST,success,Acesso normal ao sistema
+18,2026-05-27 09:29:19,10.0.4.51,marcos.oliveira,API_CALL,success,Acesso normal ao sistema
+19,2026-05-27 10:30:33,10.0.2.208,elena.barbosa,SSH_LOGIN,success,Credenciais válidas
+20,2026-05-27 10:32:37,10.0.4.23,vanessa.souza,VPN_LOGIN,success,Autenticação bem-sucedida
+21,2026-05-27 11:56:36,10.0.5.190,fernanda.costa,VPN_LOGIN,success,Autenticação bem-sucedida
+22,2026-05-27 12:24:20,10.0.3.138,patricia.rocha,RDP_LOGIN,success,Acesso autorizado
+23,2026-05-27 12:24:43,10.0.2.207,carlos.mendes,FILE_ACCESS,success,Acesso normal ao sistema
+24,2026-05-27 13:37:35,10.0.2.207,lucia.santos,SSH_LOGIN,success,Autenticação bem-sucedida
+25,2026-05-27 14:22:44,10.0.2.208,fernanda.costa,FILE_ACCESS,success,Acesso normal ao sistema
+26,2026-05-27 17:30:32,10.0.1.36,marcos.oliveira,FTP_LOGIN,success,Autenticação bem-sucedida
+27,2026-05-27 17:47:06,189.117.163.214,patricia.rocha,SSH_LOGIN,success,Acesso autorizado
+28,2026-05-28 00:24:55,10.0.2.63,fabio.carvalho,DB_QUERY,success,Acesso fora do horário padrão
+29,2026-05-28 08:09:10,189.69.180.240,carlos.mendes,LOGIN,success,Acesso autorizado
+30,2026-05-28 08:19:28,10.0.0.98,william.nunes,API_CALL,success,Acesso normal ao sistema
+31,2026-05-28 09:05:27,189.42.119.98,joao.silva,RDP_LOGIN,success,Sessão iniciada
+32,2026-05-28 10:17:39,10.0.0.98,vanessa.souza,FTP_LOGIN,success,Credenciais válidas
+33,2026-05-28 10:27:17,10.0.0.56,diego.martins,WEB_REQUEST,success,Acesso normal ao sistema
+34,2026-05-28 11:40:43,10.0.5.140,thiago.pereira,LOGIN,success,Login via 2FA
+35,2026-05-28 14:24:24,10.0.0.190,fabio.carvalho,FILE_ACCESS,success,Acesso normal ao sistema
+36,2026-05-28 15:28:49,189.76.213.161,william.nunes,FTP_LOGIN,success,Autenticação bem-sucedida
+37,2026-05-29 05:55:41,203.0.113.42,sysadmin,LOGIN,failure,MFA falhou
+38,2026-05-29 05:56:38,203.0.113.42,sysadmin,RDP_LOGIN,failure,Usuário não encontrado
+39,2026-05-29 05:56:42,203.0.113.42,sysadmin,SSH_LOGIN,failure,Token expirado
+40,2026-05-29 05:57:07,203.0.113.42,sysadmin,RDP_LOGIN,failure,Usuário não encontrado
+41,2026-05-29 05:57:59,203.0.113.42,sysadmin,RDP_LOGIN,failure,IP bloqueado por política
+42,2026-05-29 05:59:36,203.0.113.42,sysadmin,SSH_LOGIN,failure,IP bloqueado por política
+43,2026-05-29 05:59:37,203.0.113.42,sysadmin,RDP_LOGIN,failure,Senha incorreta
+44,2026-05-29 05:59:59,203.0.113.42,sysadmin,RDP_LOGIN,failure,IP bloqueado por política
+45,2026-05-29 06:00:15,203.0.113.42,sysadmin,LOGIN,failure,Senha incorreta
+46,2026-05-29 06:02:04,203.0.113.42,sysadmin,RDP_LOGIN,failure,MFA falhou
+47,2026-05-29 06:02:38,203.0.113.42,sysadmin,LOGIN,failure,Credenciais inválidas
+48,2026-05-29 06:02:40,203.0.113.42,sysadmin,LOGIN,failure,Token expirado
+49,2026-05-29 06:04:18,203.0.113.42,sysadmin,RDP_LOGIN,failure,MFA falhou
+50,2026-05-29 06:04:50,203.0.113.42,sysadmin,LOGIN,failure,Senha incorreta
+51,2026-05-29 06:06:26,203.0.113.42,sysadmin,RDP_LOGIN,failure,Credenciais inválidas
+52,2026-05-29 06:08:00,203.0.113.42,sysadmin,SSH_LOGIN,failure,Tentativa de acesso não autorizado
+53,2026-05-29 08:05:22,10.0.1.179,fernanda.costa,API_CALL,success,Acesso normal ao sistema
+54,2026-05-29 08:41:34,10.0.5.190,ana.lima,SSH_LOGIN,success,Sessão iniciada
+55,2026-05-29 09:15:56,10.0.0.98,lucia.santos,VPN_LOGIN,success,Acesso autorizado
+56,2026-05-29 09:28:10,10.0.0.190,thiago.pereira,LOGIN,success,Acesso autorizado
+57,2026-05-29 09:42:27,10.0.2.207,william.nunes,VPN_LOGIN,success,Login via 2FA
+58,2026-05-29 10:00:35,10.0.5.167,marcos.oliveira,WEB_REQUEST,success,Acesso normal ao sistema
+59,2026-05-29 10:05:11,10.0.5.140,diego.martins,WEB_REQUEST,success,Acesso normal ao sistema
+60,2026-05-29 10:34:25,10.0.2.27,lucia.santos,DB_QUERY,success,Acesso normal ao sistema
+61,2026-05-29 11:45:37,10.0.2.63,fabio.carvalho,WEB_REQUEST,success,Acesso normal ao sistema
+62,2026-05-29 14:23:40,189.156.163.44,elena.barbosa,SSH_LOGIN,success,Login via 2FA
+63,2026-05-29 17:01:59,189.170.59.198,thiago.pereira,VPN_LOGIN,success,Login via 2FA
+64,2026-05-29 17:15:37,189.26.98.72,carlos.mendes,LOGIN,success,Login via 2FA
+65,2026-05-30 14:19:41,10.0.2.207,elena.barbosa,RDP_LOGIN,failure,Acesso fora do horário padrão
+66,2026-05-31 03:55:41,203.0.113.42,user004,LOGIN,failure,Usuário não encontrado
+67,2026-05-31 03:56:03,203.0.113.42,user011,LOGIN,failure,Usuário não encontrado
+68,2026-05-31 03:56:21,203.0.113.42,user008,LOGIN,failure,Usuário não encontrado
+69,2026-05-31 03:57:20,203.0.113.42,user002,LOGIN,failure,Usuário não encontrado
+70,2026-05-31 03:57:44,203.0.113.42,user015,LOGIN,failure,Usuário não encontrado
+71,2026-05-31 03:58:11,203.0.113.42,user001,LOGIN,failure,Usuário não encontrado
+72,2026-05-31 03:58:29,203.0.113.42,lucia.santos,LOGIN,failure,Usuário não encontrado
+73,2026-05-31 03:58:56,203.0.113.42,user009,LOGIN,failure,Usuário não encontrado
+74,2026-05-31 03:59:04,203.0.113.42,fernanda.costa,LOGIN,failure,Usuário não encontrado
+75,2026-05-31 03:59:47,203.0.113.42,carlos.mendes,LOGIN,failure,Usuário não encontrado
+76,2026-05-31 04:01:09,203.0.113.42,user005,LOGIN,failure,Usuário não encontrado
+77,2026-05-31 04:01:26,203.0.113.42,ana.lima,LOGIN,failure,Usuário não encontrado
+78,2026-05-31 04:01:31,203.0.113.42,user012,LOGIN,failure,Usuário não encontrado
+79,2026-05-31 04:02:06,203.0.113.42,user016,LOGIN,failure,Usuário não encontrado
+80,2026-05-31 04:04:05,203.0.113.42,user007,LOGIN,failure,Usuário não encontrado
+81,2026-05-31 04:04:08,203.0.113.42,user010,LOGIN,failure,Usuário não encontrado
+82,2026-05-31 04:55:41,203.0.113.42,joao.silva,LOGIN,failure,Usuário não encontrado
+83,2026-05-31 04:56:31,203.0.113.42,sandra.ferreira,LOGIN,failure,Usuário não encontrado
+84,2026-05-31 04:59:23,203.0.113.42,diego.martins,LOGIN,failure,Usuário não encontrado
+85,2026-05-31 04:59:31,203.0.113.42,lucia.santos,LOGIN,failure,Usuário não encontrado
+86,2026-05-31 04:59:31,203.0.113.42,fernanda.costa,LOGIN,failure,Usuário não encontrado
+87,2026-06-01 08:37:47,189.42.119.98,carlos.mendes,RDP_LOGIN,success,Autenticação bem-sucedida
+88,2026-06-01 09:15:46,189.97.21.142,diego.martins,FTP_LOGIN,success,Sessão iniciada
+89,2026-06-01 09:24:55,189.32.250.237,carlos.mendes,SSH_LOGIN,success,Sessão iniciada
+90,2026-06-01 09:53:48,189.75.253.21,patricia.rocha,SSH_LOGIN,success,Sessão iniciada
+91,2026-06-01 10:17:19,10.0.3.57,sandra.ferreira,DB_QUERY,success,Acesso normal ao sistema
+92,2026-06-01 10:23:48,189.93.148.50,marcos.oliveira,FTP_LOGIN,success,Autenticação bem-sucedida
+93,2026-06-01 10:30:20,10.0.5.29,roberto.alves,API_CALL,success,Acesso normal ao sistema
+94,2026-06-01 10:36:42,10.0.5.27,beatriz.campos,SSH_LOGIN,success,Token válido
+95,2026-06-01 10:49:41,10.0.4.7,diego.martins,WEB_REQUEST,success,Acesso normal ao sistema
+96,2026-06-01 11:02:36,10.0.1.36,dbadmin,PRIVILEGE_ESCALATION,success,Acesso à conta privilegiada
+97,2026-06-01 11:52:24,10.0.5.167,fabio.carvalho,WEB_REQUEST,success,Acesso normal ao sistema
+98,2026-06-01 12:03:08,189.159.227.221,diego.martins,LOGIN,success,Token válido
+99,2026-06-01 12:12:59,10.0.0.190,joao.silva,WEB_REQUEST,success,Acesso normal ao sistema
+100,2026-06-01 12:28:56,10.0.4.109,fabio.carvalho,LOGIN,success,Token válido
+101,2026-06-01 12:33:55,10.0.5.167,diego.martins,FTP_LOGIN,success,Token válido
+102,2026-06-01 12:44:48,10.0.2.40,thiago.pereira,RDP_LOGIN,success,Autenticação bem-sucedida
+103,2026-06-01 13:07:47,10.0.4.51,marcos.oliveira,SSH_LOGIN,success,Token válido
+104,2026-06-01 13:13:43,189.76.213.161,sandra.ferreira,VPN_LOGIN,success,Acesso autorizado
+105,2026-06-01 13:14:24,10.0.3.57,roberto.alves,API_CALL,success,Acesso normal ao sistema
+106,2026-06-01 13:44:09,10.0.5.167,beatriz.campos,DB_QUERY,success,Acesso normal ao sistema
+107,2026-06-01 14:21:17,189.164.177.143,fernanda.costa,RDP_LOGIN,success,Acesso autorizado
+108,2026-06-01 14:38:04,10.0.0.98,beatriz.campos,FTP_LOGIN,success,Login via 2FA
+109,2026-06-01 14:39:47,10.0.0.195,administrator,SSH_LOGIN,success,Acesso à conta privilegiada
+110,2026-06-01 15:00:46,189.76.213.161,sandra.ferreira,SSH_LOGIN,success,Credenciais válidas
+111,2026-06-01 15:07:16,10.0.3.151,fabio.carvalho,API_CALL,success,Acesso normal ao sistema
+112,2026-06-01 15:36:47,10.0.2.208,fabio.carvalho,FILE_ACCESS,success,Acesso normal ao sistema
+113,2026-06-01 15:42:07,10.0.3.138,patricia.rocha,RDP_LOGIN,success,Acesso autorizado
+114,2026-06-01 16:18:14,10.0.0.195,vanessa.souza,API_CALL,success,Acesso normal ao sistema
+115,2026-06-01 16:41:17,10.0.3.138,fabio.carvalho,VPN_LOGIN,success,Token válido
+116,2026-06-01 17:16:02,189.219.60.222,joao.silva,VPN_LOGIN,success,Acesso autorizado
+117,2026-06-01 17:19:05,10.0.4.109,roberto.alves,FTP_LOGIN,success,Login via 2FA
+118,2026-06-01 17:32:47,10.0.5.27,lucia.santos,RDP_LOGIN,success,Login via 2FA
+119,2026-06-01 17:38:47,189.164.177.143,joao.silva,SSH_LOGIN,success,Acesso autorizado
+120,2026-06-01 17:46:42,10.0.3.57,patricia.rocha,DB_QUERY,success,Acesso normal ao sistema
+121,2026-06-02 00:23:35,10.0.3.138,william.nunes,WEB_REQUEST,success,Acesso fora do horário padrão
+122,2026-06-02 04:55:41,194.165.16.72,user019,LOGIN,failure,Usuário não encontrado
+123,2026-06-02 04:56:09,194.165.16.72,user001,LOGIN,failure,Usuário não encontrado
+124,2026-06-02 04:56:20,194.165.16.72,user002,LOGIN,failure,Usuário não encontrado
+125,2026-06-02 04:56:20,194.165.16.72,user003,LOGIN,failure,Usuário não encontrado
+126,2026-06-02 04:57:01,194.165.16.72,joao.silva,LOGIN,failure,Usuário não encontrado
+127,2026-06-02 04:58:51,194.165.16.72,lucia.santos,LOGIN,failure,Usuário não encontrado
+128,2026-06-02 04:59:08,194.165.16.72,user010,LOGIN,failure,Usuário não encontrado
+129,2026-06-02 04:59:10,194.165.16.72,fernanda.costa,LOGIN,failure,Usuário não encontrado
+130,2026-06-02 04:59:17,194.165.16.72,user009,LOGIN,failure,Usuário não encontrado
+131,2026-06-02 05:00:21,194.165.16.72,user007,LOGIN,failure,Usuário não encontrado
+132,2026-06-02 05:00:29,194.165.16.72,user015,LOGIN,failure,Usuário não encontrado
+133,2026-06-02 05:00:51,194.165.16.72,user011,LOGIN,failure,Usuário não encontrado
+134,2026-06-02 05:00:53,194.165.16.72,user014,LOGIN,failure,Usuário não encontrado
+135,2026-06-02 05:01:41,194.165.16.72,user008,LOGIN,failure,Usuário não encontrado
+136,2026-06-02 05:02:11,194.165.16.72,user016,LOGIN,failure,Usuário não encontrado
+137,2026-06-02 05:03:09,194.165.16.72,user018,LOGIN,failure,Usuário não encontrado
+138,2026-06-02 05:04:26,194.165.16.72,user005,LOGIN,failure,Usuário não encontrado
+139,2026-06-02 05:05:02,194.165.16.72,user004,LOGIN,failure,Usuário não encontrado
+140,2026-06-02 05:23:24,10.0.0.56,carlos.mendes,API_CALL,success,Acesso fora do horário padrão
+141,2026-06-02 09:22:49,189.26.98.72,diego.martins,SSH_LOGIN,success,Sessão iniciada
+142,2026-06-02 10:30:09,10.0.2.27,elena.barbosa,API_CALL,success,Acesso normal ao sistema
+143,2026-06-02 10:45:20,10.0.0.98,roberto.alves,WEB_REQUEST,success,Acesso normal ao sistema
+144,2026-06-02 10:51:44,10.0.1.36,elena.barbosa,FTP_LOGIN,success,Sessão iniciada
+145,2026-06-02 10:58:17,10.0.5.27,lucia.santos,LOGIN,success,Sessão iniciada
+146,2026-06-02 11:39:33,10.0.2.155,sandra.ferreira,API_CALL,success,Acesso normal ao sistema
+147,2026-06-02 12:42:31,189.93.148.50,patricia.rocha,SSH_LOGIN,success,Token válido
+148,2026-06-02 12:49:18,10.0.1.246,patricia.rocha,WEB_REQUEST,success,Acesso normal ao sistema
+149,2026-06-02 12:56:09,10.0.5.167,roberto.alves,API_CALL,success,Acesso normal ao sistema
+150,2026-06-02 13:06:43,189.93.148.50,william.nunes,RDP_LOGIN,success,Autenticação bem-sucedida
+151,2026-06-02 13:11:19,189.156.163.44,ana.lima,FTP_LOGIN,success,Sessão iniciada
+152,2026-06-02 13:53:49,10.0.5.140,carlos.mendes,LOGIN,success,Acesso autorizado
+153,2026-06-02 14:54:35,189.219.60.222,ana.lima,RDP_LOGIN,success,Autenticação bem-sucedida
+154,2026-06-02 15:36:39,10.0.2.40,beatriz.campos,LOGIN,success,Login via 2FA
+155,2026-06-02 15:40:16,10.0.3.151,elena.barbosa,LOGIN,success,Login via 2FA
+156,2026-06-03 05:50:04,10.0.3.57,william.nunes,SSH_LOGIN,failure,Acesso fora do horário padrão
+157,2026-06-03 08:03:35,189.175.166.19,thiago.pereira,SSH_LOGIN,success,Token válido
+158,2026-06-03 08:05:14,189.70.254.237,ana.lima,RDP_LOGIN,success,Credenciais válidas
+159,2026-06-03 08:35:37,10.0.3.88,marcos.oliveira,WEB_REQUEST,success,Acesso normal ao sistema
+160,2026-06-03 08:45:27,189.159.227.221,ana.lima,FTP_LOGIN,success,Token válido
+161,2026-06-03 11:32:47,10.0.5.140,roberto.alves,API_CALL,success,Acesso normal ao sistema
+162,2026-06-03 11:53:40,189.164.177.143,sandra.ferreira,FTP_LOGIN,success,Login via 2FA
+163,2026-06-03 13:07:49,189.76.213.161,beatriz.campos,LOGIN,success,Token válido
+164,2026-06-03 13:20:57,10.0.0.8,fernanda.costa,SSH_LOGIN,success,Sessão iniciada
+165,2026-06-03 14:05:23,10.0.5.140,beatriz.campos,DB_QUERY,success,Acesso normal ao sistema
+166,2026-06-03 14:23:07,10.0.0.195,patricia.rocha,DB_QUERY,success,Acesso normal ao sistema
+167,2026-06-03 15:46:41,10.0.5.140,fabio.carvalho,DB_QUERY,success,Acesso normal ao sistema
+168,2026-06-03 17:27:57,10.0.2.27,beatriz.campos,SSH_LOGIN,success,Sessão iniciada
+169,2026-06-03 17:44:56,189.181.18.12,sandra.ferreira,LOGIN,success,Credenciais válidas
+170,2026-06-04 00:54:06,45.142.212.100,sa,SSH_LOGIN,success,Acesso à conta privilegiada - horário incomum
+171,2026-06-04 08:28:16,10.0.2.207,william.nunes,FILE_ACCESS,success,Acesso normal ao sistema
+172,2026-06-04 08:51:45,10.0.5.29,joao.silva,API_CALL,success,Acesso normal ao sistema
+173,2026-06-04 10:28:53,189.26.98.72,thiago.pereira,FTP_LOGIN,success,Autenticação bem-sucedida
+174,2026-06-04 10:36:15,10.0.2.40,beatriz.campos,API_CALL,success,Acesso normal ao sistema
+175,2026-06-04 11:25:44,10.0.1.179,roberto.alves,FTP_LOGIN,success,Acesso autorizado
+176,2026-06-04 12:01:53,10.0.2.208,beatriz.campos,LOGIN,success,Credenciais válidas
+177,2026-06-04 12:23:32,10.0.5.140,fabio.carvalho,FILE_ACCESS,success,Acesso normal ao sistema
+178,2026-06-04 12:44:55,10.0.5.27,elena.barbosa,SSH_LOGIN,success,Acesso autorizado
+179,2026-06-04 13:57:59,10.0.1.246,carlos.mendes,SSH_LOGIN,success,Token válido
+180,2026-06-04 14:07:08,10.0.2.63,carlos.mendes,RDP_LOGIN,success,Login via 2FA
+181,2026-06-04 14:54:57,189.93.148.50,diego.martins,FTP_LOGIN,success,Credenciais válidas
+182,2026-06-04 15:32:38,10.0.4.23,diego.martins,LOGIN,success,Token válido
+183,2026-06-04 15:36:50,10.0.1.130,roberto.alves,WEB_REQUEST,success,Acesso normal ao sistema
+184,2026-06-04 15:41:34,10.0.0.187,fabio.carvalho,DB_QUERY,success,Acesso normal ao sistema
+185,2026-06-04 17:17:54,10.0.5.27,joao.silva,WEB_REQUEST,success,Acesso normal ao sistema
+186,2026-06-04 23:44:53,185.220.101.47,lucia.santos,API_CALL,failure,Acesso fora do horário padrão
+187,2026-06-05 09:00:29,10.0.5.27,joao.silva,FTP_LOGIN,success,Sessão iniciada
+188,2026-06-05 09:15:12,189.93.148.50,patricia.rocha,VPN_LOGIN,success,Sessão iniciada
+189,2026-06-05 09:46:57,189.76.213.161,thiago.pereira,RDP_LOGIN,success,Token válido
+190,2026-06-05 10:23:19,189.164.177.143,vanessa.souza,FTP_LOGIN,success,Credenciais válidas
+191,2026-06-05 10:40:16,189.42.119.98,marcos.oliveira,VPN_LOGIN,success,Credenciais válidas
+192,2026-06-05 10:46:29,10.0.1.246,sandra.ferreira,DB_QUERY,success,Acesso normal ao sistema
+193,2026-06-05 10:50:57,10.0.2.208,ana.lima,SSH_LOGIN,success,Sessão iniciada
+194,2026-06-05 15:22:35,10.0.0.56,sandra.ferreira,FILE_ACCESS,success,Acesso normal ao sistema
+195,2026-06-05 15:45:58,10.0.0.98,beatriz.campos,SSH_LOGIN,success,Login via 2FA
+196,2026-06-05 16:17:52,10.0.0.195,ana.lima,RDP_LOGIN,success,Credenciais válidas
+197,2026-06-05 16:22:43,10.0.2.40,dbadmin,LOGIN,success,Acesso à conta privilegiada
+198,2026-06-05 16:48:34,10.0.3.138,beatriz.campos,RDP_LOGIN,success,Sessão iniciada
+199,2026-06-05 17:14:41,189.117.163.214,fernanda.costa,VPN_LOGIN,success,Token válido
+200,2026-06-05 23:44:31,10.0.2.208,william.nunes,SSH_LOGIN,failure,Acesso fora do horário padrão
+201,2026-06-06 01:36:08,10.0.0.92,william.nunes,FILE_ACCESS,failure,Acesso fora do horário padrão
+202,2026-06-06 04:04:24,91.108.4.201,sysadmin,LOGIN,success,Acesso à conta privilegiada - horário incomum
+203,2026-06-06 10:15:41,10.0.3.138,diego.martins,SSH_LOGIN,success,Acesso fora do horário padrão
+204,2026-06-06 11:01:41,45.142.212.100,marcos.oliveira,WEB_REQUEST,success,Acesso fora do horário padrão
+205,2026-06-06 20:12:41,10.0.1.246,thiago.pereira,LOGIN,failure,Acesso fora do horário padrão
+206,2026-06-06 22:23:41,10.0.0.92,diego.martins,API_CALL,success,Acesso fora do horário padrão
+207,2026-06-07 03:24:05,10.0.5.140,william.nunes,LOGIN,success,Acesso fora do horário padrão
+208,2026-06-08 08:45:13,10.0.0.8,patricia.rocha,FILE_ACCESS,success,Acesso normal ao sistema
+209,2026-06-08 08:47:39,10.0.5.140,patricia.rocha,WEB_REQUEST,success,Acesso normal ao sistema
+210,2026-06-08 09:14:53,10.0.3.138,joao.silva,LOGIN,success,Token válido
+211,2026-06-08 09:36:32,10.0.0.56,patricia.rocha,VPN_LOGIN,success,Sessão iniciada
+212,2026-06-08 09:43:14,10.0.0.190,fabio.carvalho,FTP_LOGIN,success,Credenciais válidas
+213,2026-06-08 09:50:25,10.0.3.151,ana.lima,FTP_LOGIN,success,Autenticação bem-sucedida
+214,2026-06-08 10:12:08,189.159.227.221,william.nunes,FTP_LOGIN,success,Acesso autorizado
+215,2026-06-08 10:17:29,10.0.5.27,roberto.alves,VPN_LOGIN,success,Credenciais válidas
+216,2026-06-08 10:45:13,10.0.2.155,fernanda.costa,VPN_LOGIN,success,Acesso autorizado
+217,2026-06-08 10:47:24,10.0.4.7,vanessa.souza,FILE_ACCESS,success,Acesso normal ao sistema
+218,2026-06-08 10:50:44,10.0.3.151,fernanda.costa,API_CALL,success,Acesso normal ao sistema
+219,2026-06-08 11:09:41,189.70.254.237,ana.lima,LOGIN,success,Login via 2FA
+220,2026-06-08 11:16:13,10.0.3.88,vanessa.souza,FILE_ACCESS,success,Acesso normal ao sistema
+221,2026-06-08 11:28:48,10.0.1.130,sandra.ferreira,API_CALL,success,Acesso normal ao sistema
+222,2026-06-08 12:04:13,10.0.5.167,vanessa.souza,VPN_LOGIN,success,Login via 2FA
+223,2026-06-08 12:12:07,10.0.5.190,elena.barbosa,SSH_LOGIN,success,Token válido
+224,2026-06-08 12:21:29,10.0.3.151,patricia.rocha,WEB_REQUEST,success,Acesso normal ao sistema
+225,2026-06-08 12:52:00,10.0.0.195,patricia.rocha,FILE_ACCESS,success,Acesso normal ao sistema
+226,2026-06-08 13:25:44,189.181.18.12,thiago.pereira,SSH_LOGIN,success,Sessão iniciada
+227,2026-06-08 13:26:02,10.0.2.27,roberto.alves,DB_QUERY,success,Acesso normal ao sistema
+228,2026-06-08 13:42:16,10.0.0.56,william.nunes,VPN_LOGIN,success,Autenticação bem-sucedida
+229,2026-06-08 13:42:43,189.137.187.63,beatriz.campos,SSH_LOGIN,success,Login via 2FA
+230,2026-06-08 13:52:29,10.0.2.155,beatriz.campos,LOGIN,success,Acesso autorizado
+231,2026-06-08 14:43:47,189.26.98.72,marcos.oliveira,FTP_LOGIN,success,Acesso autorizado
+232,2026-06-08 14:55:58,10.0.0.195,carlos.mendes,FTP_LOGIN,success,Acesso autorizado
+233,2026-06-08 15:04:40,10.0.4.51,fernanda.costa,API_CALL,success,Acesso normal ao sistema
+234,2026-06-08 15:05:30,10.0.2.155,william.nunes,RDP_LOGIN,success,Acesso autorizado
+235,2026-06-08 15:06:15,189.170.59.198,beatriz.campos,RDP_LOGIN,success,Credenciais válidas
+236,2026-06-08 15:06:28,10.0.1.130,elena.barbosa,FILE_ACCESS,success,Acesso normal ao sistema
+237,2026-06-08 15:14:34,10.0.0.98,patricia.rocha,FILE_ACCESS,success,Acesso normal ao sistema
+238,2026-06-08 15:17:19,10.0.5.140,sandra.ferreira,LOGIN,success,Token válido
+239,2026-06-08 15:30:13,10.0.1.36,beatriz.campos,SSH_LOGIN,success,Login via 2FA
+240,2026-06-08 15:31:10,10.0.0.195,fernanda.costa,FILE_ACCESS,success,Acesso normal ao sistema
+241,2026-06-08 15:41:16,10.0.4.23,fabio.carvalho,DB_QUERY,success,Acesso normal ao sistema
+242,2026-06-08 15:49:43,10.0.4.7,lucia.santos,FILE_ACCESS,success,Acesso normal ao sistema
+243,2026-06-08 16:49:39,10.0.2.207,sa,USER_CREATE,success,Acesso à conta privilegiada
+244,2026-06-08 16:53:00,10.0.0.195,thiago.pereira,SSH_LOGIN,success,Login via 2FA
+245,2026-06-08 16:58:30,10.0.0.98,patricia.rocha,DB_QUERY,success,Acesso normal ao sistema
+246,2026-06-09 02:38:57,45.142.212.100,sysadmin,SSH_LOGIN,failure,Acesso à conta privilegiada - horário incomum
+247,2026-06-09 05:42:22,10.0.0.195,fernanda.costa,FTP_LOGIN,success,Acesso fora do horário padrão
+248,2026-06-09 08:03:30,10.0.2.207,beatriz.campos,LOGIN,success,Login via 2FA
+249,2026-06-09 09:09:48,189.69.180.240,roberto.alves,VPN_LOGIN,success,Credenciais válidas
+250,2026-06-09 09:38:02,189.42.119.98,diego.martins,RDP_LOGIN,success,Credenciais válidas
+251,2026-06-09 09:49:51,10.0.4.23,roberto.alves,API_CALL,success,Acesso normal ao sistema
+252,2026-06-09 11:51:25,10.0.5.190,marcos.oliveira,WEB_REQUEST,success,Acesso normal ao sistema
+253,2026-06-09 12:53:44,10.0.2.155,fernanda.costa,WEB_REQUEST,success,Acesso normal ao sistema
+254,2026-06-09 13:27:52,10.0.0.56,lucia.santos,API_CALL,success,Acesso normal ao sistema
+255,2026-06-09 13:43:47,189.75.253.21,sandra.ferreira,VPN_LOGIN,success,Token válido
+256,2026-06-09 14:24:05,10.0.3.88,lucia.santos,API_CALL,success,Acesso normal ao sistema
+257,2026-06-09 14:31:38,10.0.2.155,elena.barbosa,RDP_LOGIN,success,Sessão iniciada
+258,2026-06-09 15:19:55,10.0.1.179,diego.martins,FTP_LOGIN,success,Credenciais válidas
+259,2026-06-09 16:14:39,189.137.187.63,carlos.mendes,FTP_LOGIN,success,Acesso autorizado
+260,2026-06-09 17:43:45,10.0.4.109,carlos.mendes,FILE_ACCESS,success,Acesso normal ao sistema
+261,2026-06-10 02:04:45,10.0.2.63,elena.barbosa,FTP_LOGIN,success,Acesso fora do horário padrão
+262,2026-06-10 05:55:41,198.51.100.77,administrator,SSH_LOGIN,failure,Tentativa de acesso não autorizado
+263,2026-06-10 05:56:39,198.51.100.77,administrator,SSH_LOGIN,failure,Usuário não encontrado
+264,2026-06-10 05:56:52,198.51.100.77,administrator,SSH_LOGIN,failure,Credenciais inválidas
+265,2026-06-10 05:57:19,198.51.100.77,administrator,LOGIN,failure,Tentativa de acesso não autorizado
+266,2026-06-10 05:57:58,198.51.100.77,administrator,LOGIN,failure,Conta bloqueada
+267,2026-06-10 05:58:14,198.51.100.77,administrator,RDP_LOGIN,failure,Credenciais inválidas
+268,2026-06-10 05:58:39,198.51.100.77,administrator,LOGIN,failure,MFA falhou
+269,2026-06-10 06:00:11,198.51.100.77,administrator,RDP_LOGIN,failure,MFA falhou
+270,2026-06-10 06:01:13,198.51.100.77,administrator,LOGIN,failure,Senha incorreta
+271,2026-06-10 06:01:51,198.51.100.77,administrator,LOGIN,failure,Credenciais inválidas
+272,2026-06-10 06:03:51,198.51.100.77,administrator,RDP_LOGIN,failure,Tentativa de acesso não autorizado
+273,2026-06-10 06:04:10,198.51.100.77,administrator,SSH_LOGIN,failure,Senha incorreta
+274,2026-06-10 06:05:22,198.51.100.77,administrator,RDP_LOGIN,failure,Tentativa de acesso não autorizado
+275,2026-06-10 06:05:23,198.51.100.77,administrator,SSH_LOGIN,failure,Conta bloqueada
+276,2026-06-10 06:06:04,198.51.100.77,administrator,LOGIN,failure,Senha incorreta
+277,2026-06-10 06:06:11,198.51.100.77,administrator,LOGIN,failure,MFA falhou
+278,2026-06-10 06:09:19,198.51.100.77,administrator,LOGIN,failure,Senha incorreta
+279,2026-06-10 06:09:43,198.51.100.77,administrator,SSH_LOGIN,failure,IP bloqueado por política
+280,2026-06-10 08:23:21,10.0.1.36,dbadmin,RDP_LOGIN,success,Acesso à conta privilegiada
+281,2026-06-10 09:18:26,10.0.1.36,fernanda.costa,DB_QUERY,success,Acesso normal ao sistema
+282,2026-06-10 10:36:40,10.0.3.88,sandra.ferreira,WEB_REQUEST,success,Acesso normal ao sistema
+283,2026-06-10 11:22:35,10.0.5.167,beatriz.campos,DB_QUERY,success,Acesso normal ao sistema
+284,2026-06-10 11:48:18,10.0.0.56,vanessa.souza,FILE_ACCESS,success,Acesso normal ao sistema
+285,2026-06-10 12:21:39,189.94.42.95,beatriz.campos,LOGIN,success,Acesso autorizado
+286,2026-06-10 12:46:37,10.0.4.23,thiago.pereira,SSH_LOGIN,success,Acesso autorizado
+287,2026-06-10 15:21:11,10.0.3.151,carlos.mendes,VPN_LOGIN,success,Autenticação bem-sucedida
+288,2026-06-10 16:33:22,189.42.119.98,diego.martins,FTP_LOGIN,success,Acesso autorizado
+289,2026-06-11 04:55:41,185.220.101.47,vanessa.souza,LOGIN,failure,Usuário não encontrado
+290,2026-06-11 04:57:25,185.220.101.47,fabio.carvalho,LOGIN,failure,Usuário não encontrado
+291,2026-06-11 04:58:20,185.220.101.47,carlos.mendes,LOGIN,failure,Usuário não encontrado
+292,2026-06-11 04:59:09,185.220.101.47,elena.barbosa,LOGIN,failure,Usuário não encontrado
+293,2026-06-11 04:59:50,185.220.101.47,roberto.alves,LOGIN,failure,Usuário não encontrado
+294,2026-06-11 05:02:17,185.220.101.47,beatriz.campos,LOGIN,failure,Usuário não encontrado
+295,2026-06-11 08:53:54,10.0.2.155,fernanda.costa,FILE_ACCESS,success,Acesso normal ao sistema
+296,2026-06-11 10:35:10,10.0.2.208,vanessa.souza,WEB_REQUEST,success,Acesso normal ao sistema
+297,2026-06-11 12:08:59,10.0.5.27,william.nunes,SSH_LOGIN,success,Acesso autorizado
+298,2026-06-11 12:34:18,10.0.3.151,ana.lima,WEB_REQUEST,success,Acesso normal ao sistema
+299,2026-06-11 12:35:55,189.69.180.240,ana.lima,LOGIN,success,Token válido
+300,2026-06-11 13:04:58,10.0.0.190,joao.silva,DB_QUERY,success,Acesso normal ao sistema
+301,2026-06-11 14:20:11,10.0.3.138,sa,FTP_LOGIN,success,Acesso à conta privilegiada
+302,2026-06-11 14:36:43,10.0.1.130,marcos.oliveira,SSH_LOGIN,success,Autenticação bem-sucedida
+303,2026-06-11 15:00:46,10.0.2.155,lucia.santos,SSH_LOGIN,success,Autenticação bem-sucedida
+304,2026-06-11 15:05:48,10.0.4.109,carlos.mendes,SSH_LOGIN,success,Token válido
+305,2026-06-11 16:34:31,10.0.0.195,dbadmin,LOGIN,success,Acesso à conta privilegiada
+306,2026-06-11 17:21:05,189.69.180.240,roberto.alves,RDP_LOGIN,success,Sessão iniciada
+307,2026-06-12 04:55:41,91.108.4.201,thiago.pereira,LOGIN,failure,Senha incorreta
+308,2026-06-12 04:57:00,91.108.4.201,thiago.pereira,LOGIN,failure,Senha incorreta
+309,2026-06-12 04:58:29,91.108.4.201,thiago.pereira,LOGIN,failure,Senha incorreta
+310,2026-06-12 05:01:12,91.108.4.201,thiago.pereira,LOGIN,failure,Senha incorreta
+311,2026-06-12 05:02:19,91.108.4.201,thiago.pereira,LOGIN,failure,Senha incorreta
+312,2026-06-12 05:06:40,91.108.4.201,thiago.pereira,LOGIN,failure,Senha incorreta
+313,2026-06-12 05:07:27,91.108.4.201,thiago.pereira,LOGIN,failure,Senha incorreta
+314,2026-06-12 05:12:41,91.108.4.201,thiago.pereira,LOGIN,success,Autenticação bem-sucedida
+315,2026-06-12 05:48:09,203.0.113.42,root,FTP_LOGIN,failure,Acesso à conta privilegiada - horário incomum
+316,2026-06-12 08:37:35,189.91.54.172,vanessa.souza,LOGIN,success,Login via 2FA
+317,2026-06-12 10:31:18,10.0.5.190,lucia.santos,API_CALL,success,Acesso normal ao sistema
+318,2026-06-12 12:38:34,10.0.1.130,marcos.oliveira,API_CALL,success,Acesso normal ao sistema
+319,2026-06-12 12:51:11,189.91.54.172,joao.silva,LOGIN,success,Sessão iniciada
+320,2026-06-12 13:49:18,10.0.5.140,beatriz.campos,API_CALL,success,Acesso normal ao sistema
+321,2026-06-12 14:52:14,10.0.5.140,roberto.alves,API_CALL,success,Acesso normal ao sistema
+322,2026-06-12 15:03:22,10.0.0.92,beatriz.campos,API_CALL,success,Acesso normal ao sistema
+323,2026-06-12 15:26:03,10.0.2.155,patricia.rocha,VPN_LOGIN,success,Credenciais válidas
+324,2026-06-12 15:43:51,10.0.2.27,thiago.pereira,FILE_ACCESS,success,Acesso normal ao sistema
+325,2026-06-13 05:03:03,91.108.4.201,administrator,VPN_LOGIN,failure,Acesso à conta privilegiada - horário incomum
+326,2026-06-13 10:46:41,10.0.2.207,william.nunes,FTP_LOGIN,failure,Acesso fora do horário padrão
+327,2026-06-13 19:52:41,10.0.0.195,marcos.oliveira,FILE_ACCESS,success,Acesso fora do horário padrão
+328,2026-06-14 01:19:25,10.0.2.155,fabio.carvalho,DB_QUERY,failure,Acesso fora do horário padrão
+329,2026-06-14 01:55:41,91.108.4.201,thiago.pereira,LOGIN,failure,Senha incorreta
+330,2026-06-14 01:58:37,91.108.4.201,thiago.pereira,LOGIN,failure,Senha incorreta
+331,2026-06-14 02:00:49,91.108.4.201,thiago.pereira,LOGIN,failure,Senha incorreta
+332,2026-06-14 02:01:14,91.108.4.201,thiago.pereira,LOGIN,failure,Senha incorreta
+333,2026-06-14 02:04:06,91.108.4.201,thiago.pereira,LOGIN,failure,Senha incorreta
+334,2026-06-14 02:07:28,91.108.4.201,thiago.pereira,LOGIN,failure,Senha incorreta
+335,2026-06-14 02:08:32,91.108.4.201,thiago.pereira,LOGIN,failure,Senha incorreta
+336,2026-06-14 02:13:41,91.108.4.201,thiago.pereira,LOGIN,success,Autenticação bem-sucedida
+337,2026-06-14 06:55:41,185.220.101.47,patricia.rocha,LOGIN,failure,Usuário não encontrado
+338,2026-06-14 06:57:09,185.220.101.47,vanessa.souza,LOGIN,failure,Usuário não encontrado
+339,2026-06-14 06:58:27,185.220.101.47,sandra.ferreira,LOGIN,failure,Usuário não encontrado
+340,2026-06-14 06:58:43,185.220.101.47,fernanda.costa,LOGIN,failure,Usuário não encontrado
+341,2026-06-14 06:59:48,185.220.101.47,lucia.santos,LOGIN,failure,Usuário não encontrado
+342,2026-06-14 07:02:52,185.220.101.47,elena.barbosa,LOGIN,failure,Usuário não encontrado
+343,2026-06-14 07:06:48,185.220.101.47,beatriz.campos,LOGIN,failure,Usuário não encontrado
+344,2026-06-15 02:55:41,91.108.4.201,administrator,RDP_LOGIN,failure,Usuário não encontrado
+345,2026-06-15 02:56:51,91.108.4.201,administrator,LOGIN,failure,Senha incorreta
+346,2026-06-15 02:57:44,91.108.4.201,administrator,LOGIN,failure,Senha incorreta
+347,2026-06-15 02:57:46,91.108.4.201,administrator,LOGIN,failure,IP bloqueado por política
+348,2026-06-15 02:57:57,91.108.4.201,administrator,SSH_LOGIN,failure,Credenciais inválidas
+349,2026-06-15 02:58:55,91.108.4.201,administrator,SSH_LOGIN,failure,Tentativa de acesso não autorizado
+350,2026-06-15 02:59:27,91.108.4.201,administrator,LOGIN,failure,Tentativa de acesso não autorizado
+351,2026-06-15 02:59:32,91.108.4.201,administrator,RDP_LOGIN,failure,Usuário não encontrado
+352,2026-06-15 03:00:21,91.108.4.201,administrator,LOGIN,failure,Credenciais inválidas
+353,2026-06-15 03:01:14,91.108.4.201,administrator,RDP_LOGIN,failure,Usuário não encontrado
+354,2026-06-15 03:02:17,91.108.4.201,administrator,RDP_LOGIN,failure,Usuário não encontrado
+355,2026-06-15 03:03:46,91.108.4.201,administrator,RDP_LOGIN,failure,MFA falhou
+356,2026-06-15 03:09:11,91.108.4.201,administrator,LOGIN,failure,Tentativa de acesso não autorizado
+357,2026-06-15 08:05:47,10.0.0.98,patricia.rocha,VPN_LOGIN,success,Login via 2FA
+358,2026-06-15 08:14:04,10.0.2.40,carlos.mendes,LOGIN,success,Credenciais válidas
+359,2026-06-15 08:15:13,10.0.1.36,fernanda.costa,FILE_ACCESS,success,Acesso normal ao sistema
+360,2026-06-15 09:17:49,10.0.2.208,william.nunes,FILE_ACCESS,success,Acesso normal ao sistema
+361,2026-06-15 09:43:51,10.0.3.138,marcos.oliveira,DB_QUERY,success,Acesso normal ao sistema
+362,2026-06-15 09:50:36,10.0.1.246,carlos.mendes,FTP_LOGIN,success,Login via 2FA
+363,2026-06-15 09:51:55,10.0.4.7,marcos.oliveira,API_CALL,success,Acesso normal ao sistema
+364,2026-06-15 09:57:33,10.0.4.109,carlos.mendes,DB_QUERY,success,Acesso normal ao sistema
+365,2026-06-15 11:03:06,10.0.1.130,diego.martins,WEB_REQUEST,success,Acesso normal ao sistema
+366,2026-06-15 11:17:28,189.156.163.44,fernanda.costa,RDP_LOGIN,success,Sessão iniciada
+367,2026-06-15 11:30:20,10.0.4.51,marcos.oliveira,API_CALL,success,Acesso normal ao sistema
+368,2026-06-15 11:45:10,189.181.18.12,thiago.pereira,LOGIN,success,Credenciais válidas
+369,2026-06-15 12:20:54,10.0.5.190,roberto.alves,RDP_LOGIN,success,Login via 2FA
+370,2026-06-15 12:40:27,10.0.3.138,sandra.ferreira,RDP_LOGIN,success,Sessão iniciada
+371,2026-06-15 12:50:57,10.0.2.207,dbadmin,USER_CREATE,success,Acesso à conta privilegiada
+372,2026-06-15 13:31:01,10.0.2.27,joao.silva,RDP_LOGIN,success,Sessão iniciada
+373,2026-06-15 13:46:08,10.0.0.195,fernanda.costa,RDP_LOGIN,success,Token válido
+374,2026-06-15 13:48:57,189.26.98.72,elena.barbosa,FTP_LOGIN,success,Login via 2FA
+375,2026-06-15 14:17:02,10.0.5.167,william.nunes,VPN_LOGIN,success,Login via 2FA
+376,2026-06-15 14:27:11,10.0.3.88,fabio.carvalho,DB_QUERY,success,Acesso normal ao sistema
+377,2026-06-15 14:39:25,10.0.4.7,joao.silva,API_CALL,success,Acesso normal ao sistema
+378,2026-06-15 14:39:43,189.97.21.142,roberto.alves,FTP_LOGIN,success,Sessão iniciada
+379,2026-06-15 15:12:15,10.0.2.208,sandra.ferreira,API_CALL,success,Acesso normal ao sistema
+380,2026-06-15 15:16:41,10.0.0.195,sysadmin,PRIVILEGE_ESCALATION,success,Acesso à conta privilegiada
+381,2026-06-15 15:37:25,10.0.2.208,diego.martins,FILE_ACCESS,success,Acesso normal ao sistema
+382,2026-06-15 15:40:28,10.0.5.167,carlos.mendes,RDP_LOGIN,success,Credenciais válidas
+383,2026-06-15 15:55:09,189.93.148.50,elena.barbosa,VPN_LOGIN,success,Acesso autorizado
+384,2026-06-15 16:09:10,10.0.2.207,vanessa.souza,WEB_REQUEST,success,Acesso normal ao sistema
+385,2026-06-15 16:24:57,10.0.2.155,beatriz.campos,API_CALL,success,Acesso normal ao sistema
+386,2026-06-15 16:25:43,10.0.0.190,vanessa.souza,LOGIN,success,Acesso autorizado
+387,2026-06-15 16:46:55,10.0.2.207,patricia.rocha,VPN_LOGIN,success,Sessão iniciada
+388,2026-06-15 17:00:16,10.0.1.246,william.nunes,DB_QUERY,success,Acesso normal ao sistema
+389,2026-06-15 17:01:03,10.0.3.57,vanessa.souza,SSH_LOGIN,success,Credenciais válidas
+390,2026-06-15 17:12:29,10.0.5.27,joao.silva,API_CALL,success,Acesso normal ao sistema
+391,2026-06-15 17:15:15,10.0.2.40,carlos.mendes,DB_QUERY,success,Acesso normal ao sistema
+392,2026-06-15 17:50:39,189.164.177.143,roberto.alves,FTP_LOGIN,success,Login via 2FA
+393,2026-06-16 00:55:41,203.0.113.42,joao.silva,LOGIN,failure,Senha incorreta
+394,2026-06-16 00:57:00,203.0.113.42,joao.silva,LOGIN,failure,Senha incorreta
+395,2026-06-16 00:59:29,203.0.113.42,joao.silva,LOGIN,failure,Senha incorreta
+396,2026-06-16 01:01:46,203.0.113.42,joao.silva,LOGIN,failure,Senha incorreta
+397,2026-06-16 01:06:20,203.0.113.42,joao.silva,LOGIN,failure,Senha incorreta
+398,2026-06-16 01:06:41,203.0.113.42,joao.silva,LOGIN,success,Autenticação bem-sucedida
+399,2026-06-16 08:05:41,10.0.0.8,diego.martins,VPN_LOGIN,success,Sessão iniciada
+400,2026-06-16 09:10:15,189.181.18.12,marcos.oliveira,LOGIN,success,Sessão iniciada
+401,2026-06-16 09:54:10,10.0.2.155,vanessa.souza,VPN_LOGIN,success,Acesso autorizado
+402,2026-06-16 10:20:07,10.0.0.56,roberto.alves,FILE_ACCESS,success,Acesso normal ao sistema
+403,2026-06-16 10:45:27,10.0.2.63,beatriz.campos,WEB_REQUEST,success,Acesso normal ao sistema
+404,2026-06-16 11:32:30,189.91.54.172,marcos.oliveira,LOGIN,success,Acesso autorizado
+405,2026-06-16 12:57:34,10.0.5.190,carlos.mendes,API_CALL,success,Acesso normal ao sistema
+406,2026-06-16 13:04:32,10.0.5.29,vanessa.souza,VPN_LOGIN,success,Login via 2FA
+407,2026-06-16 13:10:41,10.0.0.195,carlos.mendes,WEB_REQUEST,success,Acesso normal ao sistema
+408,2026-06-16 14:52:48,10.0.3.138,carlos.mendes,LOGIN,success,Acesso autorizado
+409,2026-06-16 15:01:00,10.0.5.29,diego.martins,FILE_ACCESS,success,Acesso normal ao sistema
+410,2026-06-16 15:08:40,10.0.4.109,thiago.pereira,API_CALL,success,Acesso normal ao sistema
+411,2026-06-16 16:01:46,10.0.1.246,elena.barbosa,DB_QUERY,success,Acesso normal ao sistema
+412,2026-06-16 16:19:59,10.0.0.8,joao.silva,RDP_LOGIN,success,Autenticação bem-sucedida
+413,2026-06-16 16:26:37,10.0.2.155,lucia.santos,LOGIN,success,Login via 2FA
+414,2026-06-16 17:36:33,10.0.3.151,vanessa.souza,SSH_LOGIN,success,Token válido
+415,2026-06-16 17:42:24,10.0.0.98,fernanda.costa,API_CALL,success,Acesso normal ao sistema
+416,2026-06-16 17:55:50,10.0.3.151,fernanda.costa,WEB_REQUEST,success,Acesso normal ao sistema
+417,2026-06-17 01:55:41,45.142.212.100,sa,RDP_LOGIN,failure,MFA falhou
+418,2026-06-17 01:56:38,45.142.212.100,sa,LOGIN,failure,Usuário não encontrado
+419,2026-06-17 01:56:43,45.142.212.100,sa,RDP_LOGIN,failure,Senha incorreta
+420,2026-06-17 01:57:27,45.142.212.100,sa,LOGIN,failure,MFA falhou
+421,2026-06-17 01:57:54,45.142.212.100,sa,SSH_LOGIN,failure,Credenciais inválidas
+422,2026-06-17 01:58:03,45.142.212.100,sa,SSH_LOGIN,failure,Usuário não encontrado
+423,2026-06-17 01:59:51,45.142.212.100,sa,RDP_LOGIN,failure,Usuário não encontrado
+424,2026-06-17 02:00:18,45.142.212.100,sa,LOGIN,failure,IP bloqueado por política
+425,2026-06-17 02:01:57,45.142.212.100,sa,RDP_LOGIN,failure,Usuário não encontrado
+426,2026-06-17 02:02:23,45.142.212.100,sa,SSH_LOGIN,failure,Usuário não encontrado
+427,2026-06-17 02:02:35,45.142.212.100,sa,RDP_LOGIN,failure,Conta bloqueada
+428,2026-06-17 02:05:10,45.142.212.100,sa,SSH_LOGIN,failure,Tentativa de acesso não autorizado
+429,2026-06-17 02:50:23,10.0.4.109,roberto.alves,VPN_LOGIN,success,Acesso fora do horário padrão
+430,2026-06-17 08:54:56,189.32.250.237,beatriz.campos,LOGIN,success,Acesso autorizado
+431,2026-06-17 09:40:58,10.0.4.7,thiago.pereira,DB_QUERY,success,Acesso normal ao sistema
+432,2026-06-17 10:05:31,10.0.3.88,diego.martins,API_CALL,success,Acesso normal ao sistema
+433,2026-06-17 10:33:13,10.0.1.130,sysadmin,VPN_LOGIN,success,Acesso à conta privilegiada
+434,2026-06-17 11:04:37,10.0.4.23,roberto.alves,RDP_LOGIN,success,Token válido
+435,2026-06-17 11:19:43,10.0.3.88,fernanda.costa,FILE_ACCESS,success,Acesso normal ao sistema
+436,2026-06-17 11:36:24,189.164.177.143,roberto.alves,VPN_LOGIN,success,Autenticação bem-sucedida
+437,2026-06-17 11:45:19,189.91.54.172,beatriz.campos,RDP_LOGIN,success,Login via 2FA
+438,2026-06-17 12:44:25,189.76.213.161,sandra.ferreira,FTP_LOGIN,success,Login via 2FA
+439,2026-06-17 13:15:16,10.0.0.8,beatriz.campos,RDP_LOGIN,success,Login via 2FA
+440,2026-06-17 13:29:31,10.0.0.195,vanessa.souza,FILE_ACCESS,success,Acesso normal ao sistema
+441,2026-06-17 14:26:09,10.0.4.51,thiago.pereira,DB_QUERY,success,Acesso normal ao sistema
+442,2026-06-17 14:35:00,10.0.5.27,joao.silva,SSH_LOGIN,success,Credenciais válidas
+443,2026-06-17 15:04:57,10.0.3.88,fernanda.costa,FTP_LOGIN,success,Sessão iniciada
+444,2026-06-17 15:41:45,10.0.0.187,fabio.carvalho,LOGIN,success,Autenticação bem-sucedida
+445,2026-06-17 17:45:13,10.0.3.138,beatriz.campos,DB_QUERY,success,Acesso normal ao sistema
+446,2026-06-18 02:02:22,10.0.4.7,vanessa.souza,API_CALL,failure,Acesso fora do horário padrão
+447,2026-06-18 08:37:30,10.0.3.151,root,RDP_LOGIN,success,Acesso à conta privilegiada
+448,2026-06-18 09:47:48,10.0.3.138,fabio.carvalho,DB_QUERY,success,Acesso normal ao sistema
+449,2026-06-18 11:23:27,189.91.54.172,fernanda.costa,RDP_LOGIN,success,Credenciais válidas
+450,2026-06-18 13:10:08,10.0.5.190,fabio.carvalho,FILE_ACCESS,success,Acesso normal ao sistema
+451,2026-06-18 13:27:38,10.0.0.98,joao.silva,FTP_LOGIN,success,Sessão iniciada
+452,2026-06-18 13:50:59,189.91.54.172,diego.martins,SSH_LOGIN,success,Acesso autorizado
+453,2026-06-18 16:42:45,10.0.0.56,fabio.carvalho,SSH_LOGIN,success,Acesso autorizado
+454,2026-06-18 16:57:15,10.0.2.40,marcos.oliveira,WEB_REQUEST,success,Acesso normal ao sistema
+455,2026-06-19 08:26:08,10.0.2.63,roberto.alves,DB_QUERY,success,Acesso normal ao sistema
+456,2026-06-19 10:18:02,10.0.1.246,thiago.pereira,FILE_ACCESS,success,Acesso normal ao sistema
+457,2026-06-19 10:40:06,10.0.1.179,carlos.mendes,VPN_LOGIN,success,Autenticação bem-sucedida
+458,2026-06-19 13:01:40,10.0.0.92,sandra.ferreira,WEB_REQUEST,success,Acesso normal ao sistema
+459,2026-06-19 13:50:27,10.0.5.29,joao.silva,FILE_ACCESS,success,Acesso normal ao sistema
+460,2026-06-19 14:17:48,10.0.3.151,diego.martins,LOGIN,success,Login via 2FA
+461,2026-06-19 15:34:13,10.0.1.36,diego.martins,DB_QUERY,success,Acesso normal ao sistema
+462,2026-06-19 16:07:22,10.0.4.109,diego.martins,RDP_LOGIN,success,Token válido
+463,2026-06-19 16:30:15,10.0.0.56,roberto.alves,DB_QUERY,success,Acesso normal ao sistema
+464,2026-06-19 16:49:08,189.91.54.172,lucia.santos,VPN_LOGIN,success,Credenciais válidas
+465,2026-06-19 22:23:02,185.220.101.47,sa,PRIVILEGE_ESCALATION,failure,Acesso à conta privilegiada - horário incomum
+466,2026-06-20 01:42:40,10.0.2.27,beatriz.campos,WEB_REQUEST,failure,Acesso fora do horário padrão
+467,2026-06-20 10:09:41,10.0.2.63,elena.barbosa,RDP_LOGIN,success,Acesso fora do horário padrão
+468,2026-06-21 00:40:32,10.0.0.56,roberto.alves,FTP_LOGIN,success,Acesso fora do horário padrão
+469,2026-06-21 01:08:06,194.165.16.72,sa,SSH_LOGIN,success,Acesso à conta privilegiada - horário incomum
+470,2026-06-22 08:18:22,10.0.2.207,william.nunes,SSH_LOGIN,success,Sessão iniciada
+471,2026-06-22 08:29:08,10.0.5.140,diego.martins,FILE_ACCESS,success,Acesso normal ao sistema
+472,2026-06-22 08:43:41,10.0.1.36,joao.silva,VPN_LOGIN,success,Token válido
+473,2026-06-22 08:48:01,10.0.5.140,thiago.pereira,WEB_REQUEST,success,Acesso normal ao sistema
+474,2026-06-22 08:58:38,10.0.0.195,fabio.carvalho,SSH_LOGIN,success,Credenciais válidas
+475,2026-06-22 09:22:54,10.0.4.109,william.nunes,RDP_LOGIN,success,Credenciais válidas
+476,2026-06-22 09:23:16,10.0.2.27,roberto.alves,WEB_REQUEST,success,Acesso normal ao sistema
+477,2026-06-22 09:25:31,189.170.59.198,fernanda.costa,LOGIN,success,Sessão iniciada
+478,2026-06-22 09:29:26,189.156.163.44,patricia.rocha,VPN_LOGIN,success,Login via 2FA
+479,2026-06-22 09:46:29,10.0.2.207,william.nunes,FILE_ACCESS,success,Acesso normal ao sistema
+480,2026-06-22 10:04:38,189.69.180.240,fernanda.costa,SSH_LOGIN,success,Login via 2FA
+481,2026-06-22 10:06:58,10.0.3.151,joao.silva,DB_QUERY,success,Acesso normal ao sistema
+482,2026-06-22 10:16:58,10.0.0.195,fabio.carvalho,RDP_LOGIN,success,Autenticação bem-sucedida
+483,2026-06-22 10:31:59,189.76.213.161,thiago.pereira,RDP_LOGIN,success,Login via 2FA
+484,2026-06-22 10:51:51,10.0.2.155,marcos.oliveira,LOGIN,success,Sessão iniciada
+485,2026-06-22 11:09:01,10.0.3.57,carlos.mendes,VPN_LOGIN,success,Credenciais válidas
+486,2026-06-22 11:18:02,10.0.4.109,sandra.ferreira,API_CALL,success,Acesso normal ao sistema
+487,2026-06-22 11:45:04,10.0.0.8,fernanda.costa,DB_QUERY,success,Acesso normal ao sistema
+488,2026-06-22 11:52:13,10.0.0.195,carlos.mendes,API_CALL,success,Acesso normal ao sistema
+489,2026-06-22 12:38:47,10.0.0.187,thiago.pereira,LOGIN,success,Login via 2FA
+490,2026-06-22 13:11:31,10.0.1.246,patricia.rocha,RDP_LOGIN,success,Acesso autorizado
+491,2026-06-22 13:14:40,189.26.98.72,patricia.rocha,RDP_LOGIN,success,Token válido
+492,2026-06-22 13:19:58,10.0.4.23,ana.lima,DB_QUERY,success,Acesso normal ao sistema
+493,2026-06-22 13:44:57,10.0.1.36,fernanda.costa,DB_QUERY,success,Acesso normal ao sistema
+494,2026-06-22 14:00:18,10.0.4.51,diego.martins,FILE_ACCESS,success,Acesso normal ao sistema
+495,2026-06-22 14:32:20,10.0.4.51,fernanda.costa,FILE_ACCESS,success,Acesso normal ao sistema
+496,2026-06-22 14:50:31,10.0.3.138,marcos.oliveira,API_CALL,success,Acesso normal ao sistema
+497,2026-06-22 15:06:55,189.170.59.198,ana.lima,RDP_LOGIN,success,Login via 2FA
+498,2026-06-22 15:22:19,10.0.5.140,roberto.alves,LOGIN,success,Token válido
+499,2026-06-22 15:30:15,189.181.18.12,elena.barbosa,SSH_LOGIN,success,Login via 2FA
+500,2026-06-22 15:39:03,10.0.5.29,william.nunes,WEB_REQUEST,success,Acesso normal ao sistema
+501,2026-06-22 15:39:11,10.0.3.138,thiago.pereira,FILE_ACCESS,success,Acesso normal ao sistema
+502,2026-06-22 15:48:53,10.0.3.138,vanessa.souza,DB_QUERY,success,Acesso normal ao sistema
+503,2026-06-22 15:58:03,10.0.5.167,diego.martins,DB_QUERY,success,Acesso normal ao sistema
+504,2026-06-22 16:17:59,10.0.5.27,sandra.ferreira,FILE_ACCESS,success,Acesso normal ao sistema
+505,2026-06-22 16:24:20,189.93.148.50,fabio.carvalho,LOGIN,success,Credenciais válidas
+506,2026-06-22 16:28:57,189.42.119.98,marcos.oliveira,VPN_LOGIN,success,Login via 2FA
+507,2026-06-22 16:29:17,10.0.0.92,patricia.rocha,FILE_ACCESS,success,Acesso normal ao sistema
+508,2026-06-22 16:29:26,10.0.4.51,carlos.mendes,FTP_LOGIN,success,Acesso autorizado
+509,2026-06-22 17:38:41,10.0.3.138,vanessa.souza,VPN_LOGIN,success,Login via 2FA
+510,2026-06-22 17:40:27,10.0.1.179,marcos.oliveira,DB_QUERY,success,Acesso normal ao sistema
+511,2026-06-22 17:42:51,10.0.2.207,patricia.rocha,LOGIN,success,Credenciais válidas
+512,2026-06-23 08:00:19,10.0.3.138,joao.silva,API_CALL,success,Acesso normal ao sistema
+513,2026-06-23 08:05:40,10.0.2.208,diego.martins,LOGIN,success,Autenticação bem-sucedida
+514,2026-06-23 09:47:35,10.0.2.208,lucia.santos,RDP_LOGIN,success,Credenciais válidas
+515,2026-06-23 11:31:14,10.0.2.207,sandra.ferreira,VPN_LOGIN,success,Autenticação bem-sucedida
+516,2026-06-23 12:43:34,10.0.5.27,marcos.oliveira,VPN_LOGIN,success,Acesso autorizado
+517,2026-06-23 15:09:16,10.0.3.57,lucia.santos,FTP_LOGIN,success,Credenciais válidas
+518,2026-06-23 16:28:07,10.0.5.140,roberto.alves,LOGIN,success,Acesso autorizado
+519,2026-06-23 16:48:17,10.0.4.109,vanessa.souza,RDP_LOGIN,success,Login via 2FA
+520,2026-06-23 17:30:17,10.0.3.138,carlos.mendes,FILE_ACCESS,success,Acesso normal ao sistema
+521,2026-06-24 03:07:08,10.0.0.187,fernanda.costa,RDP_LOGIN,failure,Acesso fora do horário padrão
+522,2026-06-24 04:49:16,10.0.5.167,elena.barbosa,FTP_LOGIN,failure,Acesso fora do horário padrão
+523,2026-06-24 08:17:55,10.0.1.246,lucia.santos,DB_QUERY,success,Acesso normal ao sistema
+524,2026-06-24 09:29:08,189.91.54.172,elena.barbosa,FTP_LOGIN,success,Credenciais válidas
+525,2026-06-24 09:41:36,10.0.2.208,roberto.alves,FILE_ACCESS,success,Acesso normal ao sistema
+526,2026-06-24 09:55:40,189.117.163.214,thiago.pereira,FTP_LOGIN,success,Credenciais válidas
+527,2026-06-24 09:59:30,10.0.0.56,carlos.mendes,WEB_REQUEST,success,Acesso normal ao sistema
+528,2026-06-24 10:26:56,10.0.3.138,marcos.oliveira,FILE_ACCESS,success,Acesso normal ao sistema
+529,2026-06-24 10:39:34,10.0.0.92,ana.lima,FTP_LOGIN,success,Credenciais válidas
+530,2026-06-24 15:54:23,10.0.2.208,fernanda.costa,DB_QUERY,success,Acesso normal ao sistema
+531,2026-06-24 17:36:30,189.32.250.237,roberto.alves,VPN_LOGIN,success,Sessão iniciada
+532,2026-06-27 17:56:41,10.0.0.190,william.nunes,DB_QUERY,success,Acesso fora do horário padrão
+533,2026-06-27 21:41:41,10.0.0.56,vanessa.souza,RDP_LOGIN,success,Acesso fora do horário padrão
